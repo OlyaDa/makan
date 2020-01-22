@@ -2,6 +2,7 @@
 $font_text: 'Open Sans', sans-serif;
 
 .banner {
+  overflow: hidden;
   position: relative;
   min-height: 100vh;
   background: url("../../public/images/banner.png") center no-repeat;
@@ -35,6 +36,7 @@ $font_text: 'Open Sans', sans-serif;
 
   .icons {
     display: flex;
+    margin-bottom: 20px;
 
     .icon-money-back-1-1 {
       margin-bottom: 19px;
@@ -72,6 +74,41 @@ $font_text: 'Open Sans', sans-serif;
     .item:last-child {
       padding-right: 0;
       border-right: none;
+    }
+  }
+
+  ///media
+
+  @media (max-width: 1024px) {
+    background:  url("../../public/images/banner-mobile.png") center no-repeat;
+    background-size: cover;
+  }
+
+  @media (max-width: 528px) {
+  h1 {
+    max-width: 278px;
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+    .icons {
+      justify-content: center;
+      .item {
+        padding: 0;
+        border: none;
+
+        p {
+          font-size: 12px;
+        }
+      }
+      .item:nth-child(2) {
+        margin-bottom: 75px;
+      }
     }
   }
 }
