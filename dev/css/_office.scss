@@ -1,0 +1,464 @@
+//////////////////////////OFFICE BEGIN////////////////////////
+$font_text: 'Montserrat', sans-serif;
+
+.office {
+  background: #fff;
+  overflow: hidden;
+  padding: 99px 0 113px 0;
+
+  .office-inner, .contact-inner {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .vector-left {
+    width: 247px;
+    height: 390px;
+    position: absolute;
+    top: -280px;
+    left: 0;
+  }
+
+  .container {
+    z-index: 2;
+  }
+
+  .vector-right {
+    width: 255px;
+    height: 390px;
+    position: absolute;
+    right: 0;
+    bottom: -295px;
+  }
+
+  .office-holder {
+    width: 58%;
+    margin-left: auto;
+    margin-bottom: 21px;
+    box-shadow: -20px 20px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .office-body {
+    display: flex;
+    flex-basis: 48%;
+  }
+
+  .office-slider {
+    display: flex;
+    flex-basis: 58%;
+    position: relative;
+  }
+
+  .slider-nav {
+    position: absolute;
+    width: 405px;
+    bottom: -14px;
+    right: 0;
+  }
+
+  .image {
+    background: url("../../public/images/office.png") center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-basis: 52%;
+    width: 985px;
+    height: 481px;
+  }
+
+  .image-small {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)), url("../../public/images/office.png") center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-basis: 52%;
+    width: 112px;
+    height: 77px;
+    margin-left: 35px !important;
+  }
+
+  .holder {
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .caption {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 147.69%;
+    text-transform: uppercase;
+    color: #08203E;
+    position: relative;
+    margin-bottom: 66px;
+
+    strong {
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 147.69%;
+      color: #ED1D24;
+      position: absolute;
+      bottom: -24px;
+      right: 0;
+    }
+
+    &:before {
+      position: absolute;
+      content: "";
+      display: block;
+      width: 1px;
+      height: 55px;
+      background: #ED1D24;
+      top: -62px;
+    }
+
+    &:after {
+      position: absolute;
+      content: "";
+      display: block;
+      width: 96%;
+      height: 1px;
+      background: #ED1D24;
+      bottom: -14px;
+    }
+  }
+
+  .text {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 180%;
+    color: #000000;
+    span {
+      font-weight: bold;
+      color: #ED1D24;
+    }
+  }
+
+  .budmat {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 147.69%;
+    color: rgba(237, 29, 36, 0.9);
+    margin: 0;
+    z-index: 2;
+    span {
+      color: rgba(0, 0, 0, 0.9);
+      margin-left: -15px;
+    }
+  }
+
+  ///slick-prev slick-next
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 1px;
+  }
+
+  .slick-prev.slick-arrow {
+    bottom: -23px;
+    left: 0;
+  }
+
+  .slick-next {
+    bottom: -23px;
+    left: 46px;
+    border-left: 1px solid #D8D8D8;
+  }
+
+  .slick-prev, .slick-next {
+    font-size: 16px;
+    line-height: 0;
+    position: absolute;
+    display: block;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: #353535;;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    outline: none;
+    background: #fff;
+    z-index: 1;
+  }
+
+  .slick-prev:active, .slick-next:active {
+    color: #ffffff;
+    border: 1px solid #fff;
+    background: #08203E;
+  }
+  ///slick-prev slick-next end
+
+  ////////////////////////////
+
+  .lines {
+    position: absolute;
+    width: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 42px;
+    right: 38%;
+    .line-main {
+      width: 1px;
+      height: 114px;
+      background: rgba(237, 29, 36, 0.5);
+    }
+    .line-sub {
+      width: 1px;
+      height: 90px;
+      background: #D8D8D8;
+    }
+  }
+
+  .contact {
+    background: #FFFFFF;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    max-width: 426px;
+    max-height: 298px;
+    padding: 53px 0 39px 43px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  .contact-holder {
+    width: 42%;
+  }
+
+  .map {
+    display: flex;
+    flex-basis: 59%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+
+  .icon-map {
+    font-size: 40px;
+    margin-right: 46px;
+  }
+
+  .icon-wall-clock, .icon-call {
+    font-size: 34px;
+    margin-right: 49px;
+  }
+
+  .address, .tel, .time {
+    display: flex;
+    align-items: center;
+    margin-bottom: 37px;
+  }
+
+  .address-title, .tel-title, .time-title {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 9px;
+  }
+
+  .address-text, .time-text, .tel-text a {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-bottom: 0;
+  }
+
+  .tel-text {
+    margin-bottom: 0;
+  }
+
+  ///media
+
+  @media (max-width: 2200px) {
+    .holder {
+      margin-right: 75px;
+    }
+  }
+
+  @media (max-width: 1800px) {
+    .holder {
+      margin-right: 130px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .lines {
+      right: 38.5%;
+    }
+  }
+
+  @media (max-width: 1250px) {
+    .lines {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1110px) {
+    .contact {
+      max-width: 360px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    padding: 80px 0 80px 0;
+
+    .vector {
+      display: none;
+    }
+
+    .contact-inner {
+      flex-direction: column;
+    }
+
+    .holder {
+      max-width: 100%;
+      text-align: center;
+      margin: 0;
+    }
+
+    .caption, .text {
+      margin-bottom: 40px;
+      display: inline-block;
+      &:before {
+        display: none;
+      }
+    }
+
+    .text {
+      margin-bottom: 40px;
+    }
+
+    .budmat {
+      font-size: 50px;
+      text-align: center;
+      margin-bottom: 20px;
+      margin-top: 0;
+      span {
+        margin-left: -15px;
+      }
+    }
+
+    .map {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .contact {
+      max-width: 480px;
+    }
+
+    .office-inner {
+      flex-direction: column;
+    }
+
+    .office-holder {
+      width: 100%;
+    }
+
+    .slider-nav {
+      bottom: -12px;
+      max-width: 480px;
+    }
+
+    .image-small {
+      margin-left: 30px !important;
+      margin-right: 5px;
+    }
+
+    .text-container {
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 40px 0 40px 0;
+
+    .map {
+      margin-bottom: 20px;
+    }
+
+    .caption {
+      margin-bottom: 20px;
+      font-size: 25px;
+      line-height: 138.18%;
+
+      strong {
+        bottom: -18px;
+      }
+
+      &:after {
+        left: 0;
+        right: 0;
+        bottom: -9px;
+        margin: auto;
+      }
+    }
+
+    .text {
+      margin-bottom: 20px;
+    }
+
+    .address, .tel, .time {
+      justify-content: center;
+    }
+
+    .contact-holder {
+      width: 100%;
+    }
+
+    .contact {
+      max-width: 100%;
+      text-align: center;
+      padding: 40px 0;
+    }
+
+    .office-body {
+      padding: 0;
+    }
+
+    .budmat {
+      font-size: 35px;
+      span {
+        margin-left: -10px;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+
+    .caption {
+      font-size: 20px;
+    }
+
+    .budmat {
+      font-size: 30px;
+    }
+  }
+
+  @media (max-width: 470px) {
+
+    .slick-next, .slick-prev {
+      bottom: 22px !important;
+    }
+  }
+}
+
+//////////////////////////OFFICE END////////////////////////

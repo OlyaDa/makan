@@ -1,0 +1,453 @@
+//////////////////////////FLAMINFO BEGIN////////////////////////
+$font_text: 'Montserrat', sans-serif;
+
+.flamingo {
+  padding-top: 120px;
+  background: #ffffff;
+  position: relative;
+  padding-bottom: 88px;
+
+  .vector {
+    width: 346px;
+    height: 304px;
+    position: absolute;
+    bottom: 280px;
+    right: 0;
+  }
+
+  .caption {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 147.69%;
+    text-transform: uppercase;
+    color: #08203E;
+    margin-bottom: 108px;
+    position: relative;
+    margin-left: auto;
+    margin-top: 42px;
+    display: inline-block;
+    z-index: 2;
+    //
+    //strong {
+    //  font-family: "Open Sans", sans-serif;
+    //  font-style: normal;
+    //  font-weight: bold;
+    //  font-size: 24px;
+    //  line-height: 147.69%;
+    //  color: #ED1D24;
+    //  position: absolute;
+    //  bottom: -24px;
+    //  right: 0;
+    //}
+
+    &:before {
+      position: absolute;
+      content: "";
+      display: block;
+      width: 1px;
+      height: 55px;
+      background: #ED1D24;
+      top: -62px;
+      left: 0;
+    }
+
+    &:after {
+      position: absolute;
+      content: "";
+      display: block;
+      width: 91%;
+      height: 1px;
+      background: #ED1D24;
+      bottom: -14px;
+      left: 0;
+    }
+  }
+
+  .image-flamingo {
+    max-width: 284px;
+    max-height: 168px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image {
+    max-width: 787px;
+    max-height: 496px;
+    margin-bottom: 14px;
+  }
+
+  .title {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 178.18%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 22px;
+    span {
+      color: #ED1D24;
+    }
+  }
+
+  .sub-title {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 178.18%;
+    letter-spacing: 0.1em;
+    color: #333333;
+    margin-bottom: 22px;
+    margin-left: 27px;
+  }
+
+  ul {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 178.18%;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #333333;
+    margin-left: 27px;
+    margin-bottom: 101px;
+  }
+
+  .button-one {
+    display: inline-block;
+    background: #ED1D24;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    border: 2px solid #ED1D24;
+    margin-right: 10px;
+    z-index: 2;
+    margin-left: 27px;
+    .btn {
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 18px;
+      letter-spacing: 0.1em;
+      text-align: center;
+      color: #FFFFFF;
+      padding: 17px 62px;
+    }
+    &:hover {
+      background: #fff;
+      .btn {
+        color: #ED1D24;
+      }
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button-second {
+    display: inline-block;
+    background: #ED1D24;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    border: 2px solid #ED1D24;
+    z-index: 2;
+    .btn {
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 18px;
+      letter-spacing: 0.1em;
+      text-align: center;
+      color: #FFFFFF;
+      padding: 17px 44px;
+    }
+    &:hover {
+      background: #fff;
+      .btn {
+        color: #ED1D24;
+      }
+    }
+  }
+
+  .models {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 61px;
+    .item {
+      margin-right: 25px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 28px;
+      .color {
+        width: 57px;
+        height: 57px;
+        margin-right: 15px;
+      }
+      p {
+        margin: 0;
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 178.18%;
+        letter-spacing: 0.1em;
+        text-transform: capitalize;
+        max-width: 127px;
+        color: #333333;
+      }
+    }
+  }
+
+  .brown {
+    background: #2E1409;
+  }
+  .dark-brown {
+    background: #110D09;
+  }
+  .graphite {
+    background: #374546;
+  }
+  .black {
+    background: #010101;
+  }
+  .anthracite {
+    background: #24363A;
+  }
+  .brick {
+    background: #9C463A;
+  }
+  .cherry {
+    background: #4E1108;
+  }
+  .white {
+    background: linear-gradient(225deg, #F1EFF0 0%, #FFF4FA 100%);
+  }
+  .green {
+    background: #285140;
+  }
+  .copper {
+    background: #8B563E;
+  }
+  .silver {
+    background: #B1B2B4;
+  }
+
+  .catalog-card {
+    background: #FFFFFF;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    min-height: 141px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    span {
+      font-size: 45px;
+      margin-bottom: 13px;
+      margin-top: 25px;
+    }
+
+    p {
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 178.18%;
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #08203E;
+      max-width: 252px;
+    }
+  }
+
+  ///media
+
+  @media (max-width: 1190px) {
+    .button-one {
+      .btn {
+        padding: 17px 55px;
+      }
+    }
+
+    .button-second {
+      .btn {
+        padding: 17px 21px;
+      }
+    }
+  }
+
+  @media (max-width: 1047px) {
+    .button-one {
+      .btn {
+        padding: 17px 48px;
+      }
+    }
+
+    .button-second {
+      .btn {
+        padding: 17px 14px;
+      }
+    }
+  }
+
+  @media (max-width: 991px) {
+
+    padding: 80px 0 40px 0;
+    text-align: center;
+
+    .center {
+      text-align: center;
+    }
+
+    .right {
+      margin-top: 0;
+    }
+
+    .caption {
+      display: inline-block;
+      margin-top: 0;
+      margin-bottom: 40px;
+      &:before {
+        display: none;
+      }
+
+      &:after {
+        width: 100%;
+      }
+    }
+
+    .image{
+      margin: 40px auto 40px;
+    }
+
+    ul {
+      margin-bottom: 40px;
+    }
+
+    .models {
+      margin-bottom: 15px;
+      justify-content: center;
+    }
+
+    .image-flamingo {
+      margin-right: auto;
+      margin-bottom: 40px;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .vector {
+      display: none;
+    }
+
+    .buttons {
+      justify-content: center;
+      .button-one {
+        margin-right: 49px;
+      }
+    }
+
+    .catalog-card {
+      margin-bottom: 40px;
+    }
+
+    .button-one {
+      .btn {
+        padding: 17px 62px;
+      }
+    }
+
+    .button-second {
+      .btn {
+        padding: 17px 44px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 40px 0 0 0;
+
+    .image-flamingo {
+      margin-right: auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    .caption {
+      margin-bottom: 20px;
+      font-size: 25px;
+      line-height: 138.18%;
+
+      &:after {
+        left: 0;
+        right: 0;
+        bottom: -9px;
+        margin: auto;
+      }
+    }
+
+    ul {
+      margin-bottom: 20px;
+    }
+
+    .models {
+      margin-bottom: 0;
+      justify-content: center;
+    }
+
+    .catalog-card {
+      margin-bottom: 20px;
+    }
+
+    .image {
+      margin: 20px auto;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .caption {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 535px) {
+    .buttons {
+      flex-wrap: wrap;
+
+      .button-one {
+        margin-right: 7px;
+        margin-left: 7px;
+      }
+      .button-second {
+        margin-right: 7px;
+        margin-left: 7px;
+      }
+    }
+  }
+
+  @media (max-width: 487px) {
+    .buttons {
+      .button-one {
+        margin-bottom: 20px;
+
+        .btn {
+          padding: 17px 74px;
+        }
+      }
+    }
+  }
+
+}
+
+//////////////////////////FLAMINFO END////////////////////////f;

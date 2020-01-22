@@ -1,0 +1,158 @@
+////////////////////////WATER SYSTEM BEGIN////////////////////////
+$font_text: 'Montserrat', sans-serif;
+
+.water {
+  background: #ffffff;
+  overflow: hidden;
+  padding: 80px 0 117px 0;
+  position: relative;
+
+  .vector {
+    width: 241px;
+    height: 304px;
+    position: absolute;
+    right: 0;
+    top: 67px;
+  }
+
+  .water-inner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    position: relative;
+  }
+
+  .image {
+    background: url("../../public/images/pipes.png") center no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-basis: 45%;
+    min-height: 429px;
+  }
+
+  .water-holder {
+    flex-basis: 55%;
+    display: flex;
+  }
+
+  .water-text {
+    background: #FFFFFF;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    max-width: 616px;
+    padding: 53px 66px 53px 81px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  .caption {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 147.69%;
+    text-transform: uppercase;
+    color: #08203E;
+    margin-bottom: 33px;
+  }
+
+  .text {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 180%;
+    color: #000000;
+    max-width: 469px;
+    span {
+      color: #ED1D24;
+      font-weight: 600;
+    }
+  }
+
+  ////////media
+
+  @media (max-width: 1200px) {
+    .water-text {
+      max-width: 500px;
+      padding: 52px 30px 53px 30px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .water-text {
+      max-width: 450px;
+      padding: 52px 30px 53px 30px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    padding: 60px 0 80px 0;
+
+    .vector {
+      display: none;
+    }
+
+    .water-inner {
+      flex-direction: column;
+    }
+
+    .image {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .water-text {
+      max-width: 616px;
+      padding: 53px 66px 53px 81px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 20px 0 40px 0;
+
+    .water-holder{
+      width: 100%;
+
+      .water-text {
+        text-align: center;
+        max-width: 100%;
+        padding: 40px 30px 40px 30px;
+
+        .caption, .text {
+          max-width: 100%;
+        }
+
+        .caption {
+          margin-bottom: 20px;
+          font-size: 25px;
+          line-height: 138.18%;
+        }
+      }
+    }
+
+    .image {
+      margin-bottom: 20px;
+      min-height: 370px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .image {
+      min-height: 340px;
+    }
+    .caption {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .image {
+      min-height: 245px;
+    }
+  }
+}
+
+//////////////////////////WATER SYSTEM END////////////////////////
+

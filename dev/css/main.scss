@@ -1,0 +1,281 @@
+$font_text: 'Montserrat', sans-serif;
+$caption_text: Cera Pro, sans-serif;
+
+@import "header";
+@import "banner";
+@import "form-banner";
+@import "venecja";
+@import "murano";
+@import "ferrara";
+@import "rialto";
+@import "flamingo";
+@import "proaqua";
+@import "office";
+@import "certificates";
+@import "water";
+@import "roof";
+@import "choice";
+@import "reviews";
+@import "footer";
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../public/fonts/icomoon.eot?e40hu6');
+  src:  url('../../public/fonts/icomoon.eot?e40hu6#iefix') format('embedded-opentype'),
+  url('../../public/fonts/icomoon.ttf?e40hu6') format('truetype'),
+  url('../../public/fonts/icomoon.woff?e40hu6') format('woff'),
+  url('../../public/fonts/icomoon.svg?e40hu6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Vector:before {
+  content: "\e900";
+  color: #0194fe;
+}
+.icon-ant-design_youtube-filled:before {
+  content: "\e901";
+  color: #0194fe;
+}
+.icon-brandico_facebook-rect:before {
+  content: "\e902";
+  color: #0194fe;
+}
+.icon-bx_bxl-instagram-alt:before {
+  content: "\e903";
+  color: #0194fe;
+}
+.icon-car-1-1:before {
+  content: "\e904";
+  color: #fe0101;
+}
+.icon-car-2-1:before {
+  content: "\e905";
+  color: #fe0101;
+}
+.icon-car-1-11:before {
+  content: "\e906";
+  color: #fff;
+  font-size: 64px;
+}
+.icon-el_map-marker:before {
+  content: "\e907";
+  color: #fe0101;
+  margin-right: 6px;
+}
+.icon-flat-color-icons_like:before {
+  content: "\e908";
+  color: #f44336;
+}
+.icon-gas-1:before {
+  content: "\e909";
+  color: #fe0101;
+}
+.icon-gridicons_phone:before {
+  content: "\e90a";
+  color: #fe0101;
+  margin-right: 5px;
+}
+.icon-money-back-1-1:before {
+  content: "\e90b";
+  color: #fff;
+  font-size: 42px;
+}
+.icon-patent-1:before {
+  content: "\e90c";
+  color: #fff;
+  font-size: 42px;
+}
+.icon-sale-1:before {
+  content: "\e90d";
+  color: #fe0101;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: open-sans, Arial, sans-serif;
+  background-color: #fff;
+}
+
+.list-reset {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.clearfix:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.container {
+  max-width: 1320px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.container-fluid {
+  padding: 0 0 !important;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+/////////////////////POPUP///////////////////
+
+.popup {
+  background: #FFFFFF;
+  max-width: 538px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  padding: 45px 0 45px 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+
+  form {
+    display: inline-block;
+    background: #fff;
+    padding: 0 40px 0 40px;
+
+    text-align: center;
+
+    .form-title {
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 37px;
+      color: #08203E;
+    }
+
+    input {
+      padding: 11px 7px;
+      width: 423px;
+      display: block;
+      border: none;
+      border-bottom: 1px solid #08203E;
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 147.69%;
+      text-transform: uppercase;
+      color: #08203E;
+    }
+
+    label {
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 147.69%;
+      text-transform: uppercase;
+      color: #08203E;
+      margin-bottom: 7px;
+      text-align: initial;
+      display: block;
+    }
+
+    input[type="text"] {
+      margin-bottom:24px;
+    }
+
+    input[type="tel"] {
+      margin-bottom: 38px;
+    }
+    input:focus {
+      outline: none;
+    }
+
+    textarea {
+      width: 367px;
+      height: 90px;
+      display: block;
+      font-family: "Comfortaa", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      text-transform: uppercase;
+      margin-left: auto;
+      margin-right: auto;
+      color: #2D2D2D;
+      border: 1px solid #898989;
+      border-radius: 10px;
+      padding: 16px 14px 32px 26px;
+      background: transparent;
+      margin-top: 3px;
+    }
+
+    button {
+      margin-left: auto;
+      margin-right: auto;
+      background: #ED1D24;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      border-radius: 4px;
+      border: 2px solid #ED1D24;
+      .btn {
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 17px 36px;
+      }
+      &:hover {
+        background: #fff;
+        .btn {
+          color: #ED1D24;
+        }
+      }
+    }
+  }
+
+  ///media
+
+  @media (max-width: 580px) {
+    padding: 45px 40px 45px 40px;
+    form {
+      padding: 20px 0 20px 0;
+      display: block;
+
+      input {
+        width: 100%;
+      }
+    }
+  }
+}
