@@ -98,28 +98,38 @@ $font_text: 'Open Sans', sans-serif;
         margin-bottom: 27px;
       }
 
-      input[type="tel"] {
-        margin-right: 0;
-      }
-
-      .button {
-        margin-top: 27px;
+      button {
+        margin-top: -27px;
       }
     }
   }
 
-  @media (max-width: 639px) {
+  @media (max-width: 955px) {
     form {
-    flex-direction: column;
+      margin-bottom: 54px;
+      button {
+        margin-top: 0;
+      }
+    }
+  }
+
+  @media (max-width: 694px) {
+    form {
+      flex-direction: column;
 
       input[type="text"] {
         margin-right: 0;
         margin-bottom: 36px;
       }
+
+      input[type="tel"] {
+        margin-right: 0;
+      }
     }
   }
 
   @media (max-width: 528px) {
+    margin-top: 0;
     .title {
       display: none;
     }
@@ -128,6 +138,11 @@ $font_text: 'Open Sans', sans-serif;
 
   @media (max-width: 380px) {
     form {
+      button {
+        .btn {
+          padding: 0 38px;
+        }
+      }
       input {
         width: 230px;
       }

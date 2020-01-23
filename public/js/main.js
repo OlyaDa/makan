@@ -11,6 +11,33 @@ $(document).ready(function() {
     $('.popup-link').magnificPopup();
 });
 
+//video popup
+
+$(document).ready(function() {
+    $('.popup-youtube').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false
+    });
+});
+
+//scroll
+
+$('.nav-link-new').mPageScroll2id();
+
+//
+$(window).scroll(function() {
+    let height = $(window).scrollTop();
+    if(height > 1){
+        $('.header').addClass('color');
+    } else{
+        $('.header').removeClass('color');
+    }
+});
+
 //mobile menu (header)
 
 $(function(){
@@ -194,24 +221,12 @@ $('.certificates-slider').slick({
     ]
 });
 
-//scroll
+//slider for "office"
 
-$('.nav-link-new').mPageScroll2id();
+$('.cars-slider').slick({
+    dots: false,
+    prevArrow:'<button class="slick-arrow slick-prev"> <i class="fas fa-long-arrow-alt-left"></i> </button>',
+    nextArrow:'<button class="slick-arrow slick-next"> <i class="fas fa-long-arrow-alt-right"></i> </button>',
+    infinite: true,
+});
 
-//animation
-
-function ready() {
-    if(window.innerWidth <= 992) {
-        AOS.init({
-            disable: true,
-        });
-    }
-    else {
-        AOS.init({
-            disable: false,
-        });
-    }
-};
-
-
-ready();

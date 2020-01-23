@@ -1,0 +1,150 @@
+//////////////////////////LEADER BEGIN////////////////////////
+$font_text: 'Open Sans', sans-serif;
+
+.leader {
+  background: #fff;
+  padding-bottom: 105px;
+
+  .leader-inner {
+    display: flex;
+    align-items: center;
+  }
+
+  .leader-body {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+  }
+
+  .holder {
+    max-width: 555px;
+    margin-right: auto;
+    margin-left: 50px;
+  }
+
+  .image {
+    //background: url("../../public/images/cars2.png");
+    //background-size: cover;
+    display: flex;
+    flex-basis: 55%;
+    height: 460px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+
+  .fa-play-circle {
+    font-size: 64px;
+    position: absolute;
+    top: calc(50% - 32px);
+    left: calc(50% - 32px);
+    color: #FE0101;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  .caption {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+    color: #000000;
+    max-width: 428px;
+    margin-bottom: 18px;
+  }
+
+  p {
+    max-width: 496px;
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 186.68%;
+    color: #3C3C3C;
+    margin-left: 43px;
+  }
+
+  ///media
+
+  @media (max-width: 1380px) {
+    .holder {
+      margin-left: 35px;
+    }
+  }
+
+  @media (max-width: 1360px) {
+    .holder {
+      margin-left: 22px;
+    }
+  }
+
+  @media (max-width: 1340px) {
+    .holder {
+      margin-left: 10px;
+    }
+  }
+
+  @media (max-width: 1320px) {
+    .holder {
+      margin-left: 0;
+    }
+  }
+
+  @media (max-width: 991px) {
+    padding: 40px 0 50px 0;
+
+    .holder, .caption , p{
+      max-width: 100%;
+      text-align: center;
+    }
+
+    p {
+      margin: 0;
+      margin-bottom: 40px;
+    }
+
+
+    .leader-inner {
+     flex-direction: column;
+    }
+  }
+
+  @media (max-width: 850px) {
+    padding: 60px 0 50px 0;
+  }
+
+  @media (max-width: 768px) {
+    .caption {
+      line-height: 100%;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 694px) {
+    padding: 140px 0 50px 0;
+  }
+
+  @media (max-width: 576px) {
+    .caption {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 528px) {
+    padding: 100px 0 50px 0;
+  }
+
+  @media (max-width: 420px) {
+    padding: 115px 0 50px 0;
+  }
+
+  @media (max-width: 320px) {
+    padding: 135px 0 50px 0;
+  }
+
+}
+
+//////////////////////////LEADER END////////////////////////

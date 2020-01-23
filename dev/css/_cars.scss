@@ -1,0 +1,121 @@
+//////////////////////////CARS BEGIN////////////////////////
+$font_text: 'Open Sans', sans-serif;
+
+.cars {
+  padding: 0 0 50px 0;
+  overflow: hidden;
+  background: #fff;
+
+  .cars-inner {
+    display: flex;
+  }
+
+  .left-part {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    width: 50%;
+    .image-car {
+      position: relative;
+    }
+
+    .info {
+      background: #FE0101;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      width: 581px;
+      padding: 25px 0 44px 65px;
+      position: absolute;
+      bottom: 0;
+      z-index: 4;
+
+      .title {
+        font-family: $font_text;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 186.68%;
+        color: #FFFFFF;
+      }
+
+      .price {
+        font-family: $font_text;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 186.68%;
+        color: #FFFFFF;
+        margin-bottom: 0;
+      }
+    }
+
+    .cars-slider {
+      z-index: 2;
+      position: relative;
+    }
+  }
+
+  .right-part {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 135px;
+    position: relative;
+
+    .caption {
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 45px;
+      text-align: right;
+      color: #000000;
+      margin-bottom: 18px;
+      max-width: 604px;
+      margin-left: 66px;
+
+      span {
+        color: #FE0101;
+      }
+    }
+
+    p {
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 186.68%;
+      text-align: right;
+      color: #3C3C3C;
+      margin-left: 89px;
+    }
+
+    .images-cars {
+      display: flex;
+      align-items: flex-end;
+      left: -44px;
+      margin-top: 20px;
+      position: absolute;
+    }
+
+    .image-small {
+      max-width: 374px;
+      max-height: 215px;
+      z-index: 1;
+    }
+
+    .image-smaller {
+      max-width: 228px;
+      max-height: 131px;
+      position: absolute;
+      right: -54%;
+      bottom: -6%;
+      z-index: 0;
+    }
+  }
+
+
+
+}
+
+//////////////////////////CARS END////////////////////////

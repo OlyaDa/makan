@@ -46,6 +46,10 @@ $font_text: 'Open Sans', sans-serif;
       margin-bottom: 15px;
     }
 
+    .icon-car-1-11 {
+      margin-bottom: 5px;
+    }
+
     p {
       font-family: $font_text;
       font-style: normal;
@@ -56,6 +60,7 @@ $font_text: 'Open Sans', sans-serif;
       text-transform: uppercase;
       color: #FFFFFF;
       max-width: 136px;
+      margin-top: 19px;
     }
 
     .item {
@@ -80,7 +85,7 @@ $font_text: 'Open Sans', sans-serif;
   ///media
 
   @media (max-width: 1024px) {
-    background:  url("../../public/images/banner-mobile.png") center no-repeat;
+    background:  linear-gradient(rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1) 100%), url("../../public/images/banner-mobile.png") center no-repeat;
     background-size: cover;
   }
 

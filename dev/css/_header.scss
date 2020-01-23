@@ -1,6 +1,9 @@
 ////////////////////////HEADER BEGIN////////////////////////
 
 $font_text: 'Open Sans', sans-serif;
+.header.color {
+  background-color: #060d26;
+}
 
 .header {
   background-color: transparent;
@@ -182,8 +185,8 @@ $font_text: 'Open Sans', sans-serif;
     }
 
     &.show {
-      top: -30px;
-      right: -15px;
+      top: -20px;
+      right: -16px;
       z-index: 2;
       opacity: 1;
       transition: all .3s ease-in-out;

@@ -12,9 +12,9 @@ $caption_text: Cera Pro, sans-serif;
 @import "proaqua";
 @import "office";
 @import "certificates";
-@import "water";
-@import "roof";
-@import "choice";
+@import "why";
+@import "leader";
+@import "cars";
 @import "reviews";
 @import "footer";
 
@@ -60,10 +60,12 @@ $caption_text: Cera Pro, sans-serif;
 .icon-car-1-12:before {
   content: "\e911";
   color: #fe0101;
+  font-size: 96px;
 }
 .icon-car-2-11:before {
   content: "\e912";
   color: #fe0101;
+  font-size: 78px;
 }
 .icon-car-1-13:before {
   content: "\e913";
@@ -80,6 +82,7 @@ $caption_text: Cera Pro, sans-serif;
 .icon-gas-11:before {
   content: "\e916";
   color: #fe0101;
+  font-size: 96px;
 }
 .icon-gridicons_phone1:before {
   content: "\e917";
@@ -105,6 +108,7 @@ $caption_text: Cera Pro, sans-serif;
 .icon-sale-11:before {
   content: "\e91c";
   color: #fe0101;
+  font-size: 78px;
 }
 .icon-Vector:before {
   content: "\e900";
