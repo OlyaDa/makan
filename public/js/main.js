@@ -66,162 +66,8 @@ $(document).ready(function() {
     });
 });
 
-//slider for "office"
 
-$('.slider-for').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    prevArrow:'<button class="slick-arrow slick-prev"> <i class="fas fa-long-arrow-alt-left"></i> </button>',
-    nextArrow:'<button class="slick-arrow slick-next"> <i class="fas fa-long-arrow-alt-right"></i> </button>',
-    fade: true,
-    asNavFor: '.slider-nav'
-});
-
-$('.slider-nav').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    asNavFor: '.slider-for',
-    dots: false,
-    centerMode: false,
-    focusOnSelect: true,
-    arrows: false,
-});
-
-//slider for "soffits"
-
-$('.soffits-slider').slick({
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    infinite: true,
-    arrows: true,
-    dots: false,
-    autoplay: false,
-    speed: 1000,
-    centerMode: true,
-    centerPadding: '0px',
-    prevArrow:'<button class="slick-arrow slick-prev"> <i class="fas fa-long-arrow-alt-left"></i> </button>',
-    nextArrow:'<button class="slick-arrow slick-next"> <i class="fas fa-long-arrow-alt-right"></i> </button>',
-    responsive: [
-        {
-            breakpoint: 993,
-            settings: {
-                slidesToShow: 3,
-            }
-        },
-
-        {
-            breakpoint: 769,
-            settings: {
-                slidesToShow: 3,
-                arrows: false,
-            }
-        },
-
-        {
-            breakpoint: 701,
-            settings: {
-                slidesToShow: 2,
-                arrows: false,
-            }
-        },
-
-        {
-            breakpoint: 400,
-            settings: {
-                slidesToShow: 1,
-                arrows: false,
-                autoplay: false,
-            }
-        },
-
-        // {
-        //     breakpoint: 371,
-        //     settings: {
-        //         slidesToShow: 1,
-        //         arrows: false,
-        //         autoplay: false,
-        //     }
-        // }
-    ]
-});
-
-//slider for "reviews"
-
-$('.reviews-slider').slick({
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    infinite: true,
-    arrows: true,
-    prevArrow:'<button class="slick-arrow slick-prev"> <i class="fas fa-long-arrow-alt-left"></i> </button>',
-    nextArrow:'<button class="slick-arrow slick-next"> <i class="fas fa-long-arrow-alt-right"></i> </button>',
-    dots: false,
-    autoplay: false,
-    responsive: [
-        {
-            breakpoint: 992,
-            settings: {
-                slidesToShow: 3,
-            }
-        },
-
-        {
-            breakpoint: 769,
-            settings: {
-                slidesToShow: 2,
-            }
-        },
-
-        {
-            breakpoint: 461,
-            settings: {
-                slidesToShow: 1,
-                autoplay: false,
-            }
-        },
-    ]
-});
-
-//slider for "certificates"
-
-$('.certificates-slider').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    infinite: true,
-    arrows: false,
-    dots: false,
-    centerMode: true,
-    slickGoTo: 2,
-    centerPadding: '0px',
-    prevArrow:'<button class="slick-arrow slick-prev"> <i class="fas fa-long-arrow-alt-left"></i> </button>',
-    nextArrow:'<button class="slick-arrow slick-next"> <i class="fas fa-long-arrow-alt-right"></i> </button>',
-    responsive: [
-        {
-            breakpoint: 993,
-            settings: {
-                centerPadding: '0px',
-                slidesToShow: 3,
-            }
-        },
-
-        {
-            breakpoint: 769,
-            settings: {
-                centerPadding: '0px',
-                slidesToShow: 2,
-            }
-        },
-
-        {
-            breakpoint: 411,
-            settings: {
-                slidesToShow: 1,
-                arrows: false,
-            }
-        },
-    ]
-});
-
-//slider for "office"
+//slider for "cars"
 
 $('.cars-slider').slick({
     dots: false,
@@ -230,3 +76,145 @@ $('.cars-slider').slick({
     infinite: true,
 });
 
+//slider for "gallery"
+
+// $('#gallery-slider').slick({
+//     slidesToShow: 5,
+//     slidesToScroll: 1,
+//     dots: false,
+//     prevArrow:'<button class="slick-arrow slick-prev"> <i class="fas fa-long-arrow-alt-left"></i> </button>',
+//     nextArrow:'<button class="slick-arrow slick-next"> <i class="fas fa-long-arrow-alt-right"></i> </button>',
+//     infinite: true,
+//     responsive: [
+//         {
+//             breakpoint: 992,
+//             settings: {
+//                 slidesToShow: 4,
+//                 slidesToScroll: 1,
+//             }
+//         },
+//
+//         {
+//             breakpoint: 769,
+//             settings: {
+//                 slidesToShow: 3,
+//                 slidesToScroll: 1,
+//                 arrows: false,
+//                 dots: true,
+//             }
+//         },
+//
+//         {
+//             breakpoint: 568,
+//             settings: {
+//                 slidesToShow: 2,
+//                 slidesToScroll: 1,
+//                 arrows: false,
+//                 dots: true,
+//             }
+//         },
+//     ]
+// });
+
+//slider for "brands"
+
+$('.brands-slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: false,
+    prevArrow:'<button class="slick-arrow slick-prev"> <i class="fas fa-long-arrow-alt-left"></i> </button>',
+    nextArrow:'<button class="slick-arrow slick-next"> <i class="fas fa-long-arrow-alt-right"></i> </button>',
+    infinite: true,
+
+    responsive: [
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                arrows: false,
+                dots: true,
+            }
+        },
+
+        {
+            breakpoint: 769,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                arrows: false,
+                dots: true,
+            }
+        },
+
+        {
+            breakpoint: 501,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                dots: true,
+            }
+        },
+    ]
+});
+
+
+//gallery
+$(document).ready(function() {
+    $('.popup-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        tLoading: 'Loading image #%curr%...',
+        mainClass: 'mfp-img-mobile',
+        gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+        },
+        image: {
+            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+            titleSrc: function(item) {
+                return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+            }
+        }
+    });
+
+    $('#gallery-slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        dots: false,
+        prevArrow:'<button class="slick-arrow slick-prev"> <i class="fas fa-long-arrow-alt-left"></i> </button>',
+        nextArrow:'<button class="slick-arrow slick-next"> <i class="fas fa-long-arrow-alt-right"></i> </button>',
+        infinite: true,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                }
+            },
+
+            {
+                breakpoint: 769,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    dots: true,
+                }
+            },
+
+            {
+                breakpoint: 568,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    dots: true,
+                }
+            },
+        ]
+    });
+});

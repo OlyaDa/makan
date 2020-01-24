@@ -1,0 +1,73 @@
+//////////////////////////PROAQUA BEGIN////////////////////////
+$font_text: 'Open Sans', sans-serif;
+
+.map {
+
+  .map-inner {
+    display: flex;
+  }
+
+  .image {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    width: 50%;
+    height: 595px;
+    background: url("../../public/images/bg-car.png") center no-repeat;
+    background-size: cover;
+  }
+
+  .map-contact {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  ///media
+
+  @media (max-width: 1100px) {
+    .image {
+      height: 450px;
+    }
+
+    .map-contact iframe{
+      height: 450px;
+    }
+  }
+
+  @media (max-width: 768px) {
+
+    .map-inner {
+      flex-direction: column;
+    }
+
+    .image, .map-contact {
+     width: 100%;
+    }
+
+    .map-contact iframe {
+      height: 400px;
+    }
+
+    .image {
+      height: 400px;
+      flex-basis: auto;
+    }
+  }
+
+  @media (max-width: 500px) {
+
+    .map-contact iframe {
+      height: 250px;
+    }
+
+    .image {
+      height: 250px;
+      flex-basis: auto;
+    }
+  }
+
+}
+
+//////////////////////////MAP END////////////////////////f;

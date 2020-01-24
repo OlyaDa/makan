@@ -9,6 +9,7 @@ $font_text: 'Open Sans', sans-serif;
   background-size: cover;
   display: flex;
   padding-top: 92px;
+  z-index: 1;
 
   .banner-inner {
     display: flex;
@@ -38,17 +39,17 @@ $font_text: 'Open Sans', sans-serif;
     display: flex;
     margin-bottom: 20px;
 
-    .icon-money-back-1-1 {
-      margin-bottom: 19px;
-    }
-
-    .icon-patent-1 {
-      margin-bottom: 15px;
-    }
-
-    .icon-car-1-11 {
-      margin-bottom: 5px;
-    }
+    //.icon-money-back-1-1 {
+    //  margin-bottom: 19px;
+    //}
+    //
+    //.icon-patent-1 {
+    //  margin-bottom: 15px;
+    //}
+    //
+    //.icon-car-1-11 {
+    //  margin-bottom: 5px;
+    //}
 
     p {
       font-family: $font_text;
@@ -100,6 +101,10 @@ $font_text: 'Open Sans', sans-serif;
     text-transform: uppercase;
     color: #FFFFFF;
   }
+
+    .banner-inner {
+      justify-content: flex-start;
+    }
 
     .icons {
       justify-content: center;

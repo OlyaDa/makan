@@ -1,0 +1,243 @@
+//////////////////////////REVIEWS BEGIN////////////////////////
+$font_text: 'Open Sans', sans-serif;
+
+.gallery {
+  padding: 67px 0 224px 0;
+  background: #fff;
+
+  .caption {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+    text-align: center;
+    color: #252525;
+    margin-bottom: 47px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .gallery-slider {
+    display: flex;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image {
+    position: relative;
+    max-width: 288px;
+    max-height: 288px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 186.68%;
+      text-align: center;
+      color: #FFFFFF;
+      bottom: 20px;
+    }
+
+    .number {
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 186.68%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  }
+
+  .slick-list {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .image:hover .overlay {
+    opacity: 1;
+  }
+
+  .image:hover {
+    transform: scale(1.1);
+    margin: 5px;
+    z-index: 4;
+    border: 5px solid #FE0101;
+  }
+
+  ///slick-prev slick-next
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 1px;
+  }
+
+  .slick-prev.slick-arrow {
+    left: 46.4%;
+  }
+
+  .slick-next {
+    right: 46.4%;
+  }
+
+  .slick-prev, .slick-next {
+    bottom: -120px;
+    font-size: 16px;
+    line-height: 0;
+    position: absolute;
+    display: block;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: #c4956a;
+    border: 1px solid #c4956a;
+    outline: none;
+    background: #fff;
+    z-index: 1;
+  }
+
+  .slick-prev:active, .slick-next:active {
+    color: #fff;
+    border: 1px solid #c4956a;
+    background: #c4956a;
+  }
+  ///slick-prev slick-next end
+
+  //slider dots begin
+
+  .slick-dots {
+    position: absolute;
+    bottom: -60px;
+    display: block;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+  }
+
+
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+    border: 1px #c4956a solid;
+    border-radius: 50%;
+  }
+
+  .slick-dots li.slick-active {
+    position: relative;
+    display: inline-block;
+    border: 1px #c4956a solid;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background-color: #c4956a;
+    border-radius: 50%;
+  }
+
+  .slick-dots li button:before {
+    content: "";
+  }
+
+  //slider dots end
+
+
+  ///media
+
+  @media (max-width: 1300px) {
+    .slick-prev.slick-arrow {
+      left: 46%;
+    }
+
+    .slick-next {
+      right: 46%;
+    }
+  }
+
+  @media (max-width: 1190px) {
+    .slick-prev.slick-arrow {
+      left: 45%;
+    }
+
+    .slick-next {
+      right: 45%;
+    }
+  }
+
+  @media (max-width: 945px) {
+    .slick-prev.slick-arrow {
+      left: 44%;
+    }
+
+    .slick-next {
+      right: 44%;
+    }
+  }
+
+  @media (max-width: 840px) {
+    .slick-prev.slick-arrow {
+      left: 43%;
+    }
+
+    .slick-next {
+      right: 43%;
+    }
+  }
+
+  @media (max-width: 991px) {
+    padding: 40px 0 90px 0;
+
+    .slick-prev, .slick-next {
+      bottom: -85px;
+    }
+
+    .caption {
+      line-height: 27px;
+      margin-bottom: 40px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 40px 0 45px 0;
+
+    .slick-dots {
+      bottom: -42px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .caption {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+
+//////////////////////////REVIEWS END////////////////////////

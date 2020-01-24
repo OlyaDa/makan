@@ -1,0 +1,196 @@
+//////////////////////////CHOICE BEGIN////////////////////////
+$font_text: 'Open Sans', sans-serif;
+
+.choice {
+  background: #fff;
+  background: url("../../public/images/bg-choice.png") center no-repeat;
+  background-size: cover;
+  padding: 80px 0 74px 0;
+  position: relative;
+
+  .caption {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+    color: #FE0101;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 186.68%;
+    color: #FFFFFF;
+
+    span {
+      color: #FE0101;
+    }
+  }
+
+  .image {
+    position: absolute;
+    bottom: -168px;
+  }
+
+  form {
+    background: url("../../public/images/bg-form.png");
+    background-size: cover;
+    padding: 37px 0 31px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    text-align: center;
+
+    p {
+      max-width: 392px;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 186.68%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    .select {
+      position: relative;
+      display: inline-block;
+    }
+    .select:after {
+      content: "";
+      border-style: solid;
+      border-width: 11px 7.5px 0 7.5px;
+      border-color: #000 transparent transparent transparent;
+      font-size: 12px;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      z-index: 1;
+      pointer-events: none;
+    }
+    select {
+      background: #FFFFFF;
+      border: 2px solid #FFFFFF;
+      border-radius: 20px;
+      padding: 10px 0 10px 22px;
+      -webkit-appearance: none;
+      width: 366px;
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 186.68%;
+      color: #000000;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      margin-bottom: 31px;
+    }
+
+    input[type="text"] {
+      display: inline-block;
+      background: #FFFFFF;
+      border: 2px solid #FFFFFF;
+      border-radius: 20px;
+      padding: 10px 0 10px 22px;
+      -webkit-appearance: none;
+      width: 366px;
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 186.68%;
+      color: #000000;
+      margin-bottom: 31px;
+    }
+
+    input::-webkit-input-placeholder {
+      color: #000000;
+    }
+    input::-ms-input-placeholder {
+      color: #000000;
+    }
+    input::-ms-input-placeholder {
+      color: #000000;
+    }
+    input::placeholder {
+      color: #000000;
+    }
+
+    button {
+      background: #FFFFFF;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+      border-radius: 20px;
+      position: absolute;
+      width: 310px;
+      right: 0;
+      left: 0;
+      margin: auto;
+      bottom: -28px;
+      .btn {
+        font-family: $font_text;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 186.68%;
+        padding: 13px 54px;
+        color: #252525;
+      }
+    }
+  }
+
+  ///media
+
+  @media (max-width: 991px) {
+    padding: 40px 0 40px 0;
+    .image {
+      position: relative;
+      bottom: 0;
+    }
+
+    .caption {
+      margin-bottom: 20px;
+      text-align: center;
+      line-height: 131%;;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    form button {
+      position: relative;
+      top: 0;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .caption {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    form {
+      padding: 37px 4px 31px 4px;
+    }
+
+    form input[type="text"], form select, form button {
+      width: 255px;
+    }
+
+    form button {
+      .btn {
+        padding: 13px 15px;
+      }
+    }
+  }
+
+}
+
+//////////////////////////CHOICE END////////////////////////

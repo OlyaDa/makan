@@ -1,0 +1,162 @@
+//////////////////////////BRANDS BEGIN////////////////////////
+$font_text: 'Open Sans', sans-serif;
+
+.brands {
+  background: #fff;
+  padding: 59px 0 199px 0;
+
+  .caption {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+    text-align: center;
+    color: #252525;
+    margin-bottom: 59px;
+  }
+
+  .image-brand {
+    margin: 0 40px;
+  }
+
+  ///slick-prev slick-next
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 1px;
+  }
+
+  .slick-prev.slick-arrow {
+    left: 46.4%;
+  }
+
+  .slick-next {
+    right: 46.4%;
+  }
+
+  .slick-prev, .slick-next {
+    bottom: -130px;
+    font-size: 16px;
+    line-height: 0;
+    position: absolute;
+    display: block;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: #c4956a;
+    border: 1px solid #c4956a;
+    outline: none;
+    background: #fff;
+    z-index: 1;
+  }
+
+  .slick-prev:active, .slick-next:active {
+    color: #fff;
+    border: 1px solid #c4956a;
+    background: #c4956a;
+  }
+  ///slick-prev slick-next end
+
+  //slider dots begin
+
+  .slick-dots {
+    position: absolute;
+    bottom: -60px;
+    display: block;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+  }
+
+
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+    border: 1px #c4956a solid;
+    border-radius: 50%;
+  }
+
+  .slick-dots li.slick-active {
+    position: relative;
+    display: inline-block;
+    border: 1px #c4956a solid;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background-color: #c4956a;
+    border-radius: 50%;
+  }
+
+  .slick-dots li button:before {
+    content: "";
+  }
+
+  //slider dots end
+
+
+  ///media
+
+  @media (max-width: 1300px) {
+    .slick-prev.slick-arrow {
+      left: 46%;
+    }
+
+    .slick-next {
+      right: 46%;
+    }
+  }
+
+  @media (max-width: 1190px) {
+    .slick-prev.slick-arrow {
+      left: 45%;
+    }
+
+    .slick-next {
+      right: 45%;
+    }
+  }
+
+  @media (max-width: 991px) {
+    padding: 40px 0 70px 0;
+
+    .slick-prev, .slick-next {
+      bottom: -100px;
+    }
+
+    .caption {
+      line-height: 27px;
+      margin-bottom: 40px;
+    }
+
+    .image-brand {
+      margin: 0 20px;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    padding: 10px 0 40px 0;
+
+    .slick-dots {
+      bottom: -42px;
+    }
+
+  }
+
+  @media (max-width: 576px) {
+    .caption {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+}
+
+//////////////////////////BRANDS END////////////////////////

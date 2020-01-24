@@ -59,10 +59,12 @@ $font_text: 'Open Sans', sans-serif;
     }
 
     span {
-      margin-top: -30px;
-      margin-bottom: 65px;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
   }
+
+  ///media
 
   @media (max-width: 991px) {
     padding: 40px 0 40px 0;

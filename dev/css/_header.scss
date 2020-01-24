@@ -51,6 +51,12 @@ $font_text: 'Open Sans', sans-serif;
     }
   }
 
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
   .main-nav {
     display: flex;
     align-items: center;

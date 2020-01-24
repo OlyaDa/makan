@@ -1,0 +1,161 @@
+//////////////////////////DELIVERY BEGIN////////////////////////
+$font_text: 'Open Sans', sans-serif;
+
+.delivery {
+  background: #fff;
+  padding: 164px 0 59px 0;
+
+  .caption {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+    text-align: center;
+    color: #252525;
+    margin-bottom: 29px;
+  }
+
+  .sub-text {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 186.68%;
+    text-align: center;
+    color: #000000;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 54px;
+  }
+
+  .bg {
+    background: url("../../public/images/bg-delivery.png") center no-repeat;
+    background-size: cover;
+  }
+
+  .item {
+    padding: 46px 22px 25px 22px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h6 {
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 19px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #000000;
+      margin-bottom: 34px;
+    }
+
+    .image {
+      max-width: 368px;
+      max-height: 235px;
+      width: 100%;
+      margin-bottom: 26px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    p {
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 26px;
+    }
+
+    .button {
+      background: #FE0101;
+      border-radius: 20px;
+      display: inline-block;
+
+      .btn {
+        font-family: $font_text;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+        padding: 13px 90px;
+
+      }
+    }
+  }
+
+  ///media
+
+  @media (max-width: 991px) {
+    padding: 40px 0 15px 0;
+
+    .container-fluid {
+      max-width: 1320px;
+      padding: 0 15px !important;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+    }
+
+    .caption {
+      line-height: 27px;
+      margin-bottom: 20px;
+    }
+
+    .sub-text {
+      margin-bottom: 20px;
+      line-height: 131%;
+    }
+
+    .bg {
+      background: none;
+    }
+
+    .item {
+      margin-bottom: 35px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .item {
+      width: 100%;
+
+      .button {
+        width: 290px;
+        margin: auto;
+      }
+
+    }
+  }
+
+  @media (max-width: 576px) {
+    .caption {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 370px) {
+    .item {
+
+      .button {
+        width: 100%;
+        .btn {
+          padding: 13px 60px;
+        }
+      }
+
+    }
+  }
+}
+//////////////////////////DELIVERY END////////////////////////

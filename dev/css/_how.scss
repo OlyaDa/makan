@@ -1,0 +1,106 @@
+//////////////////////////HOW BEGIN////////////////////////
+$font_text: 'Open Sans', sans-serif;
+
+.how {
+  padding: 85px 0 117px 0;
+  background: linear-gradient(90deg, #010105 -0.83%, rgba(5, 1, 35, 0) 51.41%, #04020F 100%), url("../../public/images/bg-how.png") center no-repeat;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  overflow: hidden;
+
+  .caption {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+    text-align: center;
+    color: #0194FE;
+    margin-bottom: 45px;
+  }
+
+  h6 {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 186.68%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 1;
+  }
+
+  .text {
+    background: #000000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    position: relative;
+    height: 100%;
+
+    .number {
+      position: absolute;
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 165px;
+      line-height: 186.68%;
+      text-align: center;
+      color: rgba(254, 1, 1, 0.55);
+      //top: 30px;
+      right: -35px;
+      bottom: -150px;
+    }
+
+    p {
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 186.68%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  }
+
+  ///media
+
+  @media (max-width: 991px) {
+    padding: 40px 0 40px 0;
+
+    .caption {
+      line-height: 27px;
+      margin-bottom: 20px;
+    }
+
+    .item {
+      margin-bottom: 90px;
+    }
+
+    .text  .number {
+      right: 14px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .caption {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 424px) {
+    padding: 40px 0 0 0;
+
+    .text .number {
+      font-size: 110px;
+      right: -10px;
+      bottom: -100px;
+    }
+  }
+}
+
+//////////////////////////HOW END////////////////////////
