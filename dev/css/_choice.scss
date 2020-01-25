@@ -37,7 +37,9 @@ $font_text: 'Open Sans', sans-serif;
   }
 
   form {
-    background: url("../../public/images/bg-form.png");
+    background: #011AFE;
+    width: 427px;
+    height: 382px;
     background-size: cover;
     padding: 37px 0 31px 0;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -57,40 +59,86 @@ $font_text: 'Open Sans', sans-serif;
       color: #FFFFFF;
     }
 
-    .select {
+    //////////
+
+    .custom-select {
       position: relative;
-      display: inline-block;
-    }
-    .select:after {
-      content: "";
-      border-style: solid;
-      border-width: 11px 7.5px 0 7.5px;
-      border-color: #000 transparent transparent transparent;
-      font-size: 12px;
-      position: absolute;
-      right: 20px;
-      top: 20px;
-      z-index: 1;
-      pointer-events: none;
-    }
-    select {
-      background: #FFFFFF;
-      border: 2px solid #FFFFFF;
-      border-radius: 20px;
-      padding: 10px 0 10px 22px;
-      -webkit-appearance: none;
       width: 366px;
-      font-family: $font_text;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 186.68%;
-      color: #000000;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      margin-bottom: 31px;
+      padding: 0;
+      background: transparent;
+      border: none;
+      margin-bottom: 41px;
+      outline: none !important;
     }
+
+    .custom-select select {
+      display: none; /*hide original SELECT element: */
+    }
+
+    .select-selected {
+      background-color: transparent;
+    }
+
+    /* Style the arrow inside the select element: */
+    .select-selected:after {
+      position: absolute;
+      content: "";
+      top: 23px;
+      right: 20px;
+      width: 0;
+      height: 0;
+      border: 8px solid transparent;
+      border-color: #000 transparent transparent transparent;
+    }
+
+    /* Point the arrow upwards when the select box is open (active): */
+    .select-selected.select-arrow-active:after {
+      border-color: transparent transparent #000 transparent;
+      top: 13px;
+    }
+
+    /* style the items (options), including the selected item: */
+    .select-items div,.select-selected {
+        outline: none !important;
+        background: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        border-radius: 20px;
+        padding: 10px 0 10px 22px;
+        -webkit-appearance: none;
+        width: 100%;
+        font-family: $font_text;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 186.68%;
+        color: #000000;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        text-align: left;
+    }
+
+    /* Style items (options): */
+    .select-items {
+      position: absolute;
+      background-color: #fff;
+      top: 132%;
+      left: 0;
+      right: 0;
+      z-index: 99;
+      border-radius: 20px;
+    }
+
+    /* Hide the items when the select box is closed: */
+    .select-hide {
+      display: none;
+    }
+
+    .select-items div:hover, .same-as-selected {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    //////////
 
     input[type="text"] {
       display: inline-block;
@@ -122,6 +170,10 @@ $font_text: 'Open Sans', sans-serif;
       color: #000000;
     }
 
+    input {
+      outline: none !important;
+    }
+
     button {
       background: #FFFFFF;
       box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -132,6 +184,12 @@ $font_text: 'Open Sans', sans-serif;
       left: 0;
       margin: auto;
       bottom: -28px;
+      outline: none !important;
+      &:hover {
+        background: #FE0101;
+        border: 1px solid #FE0101;
+      }
+
       .btn {
         font-family: $font_text;
         font-style: normal;
@@ -151,6 +209,12 @@ $font_text: 'Open Sans', sans-serif;
     .image {
       position: relative;
       bottom: 0;
+    }
+
+    form {
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .caption {
@@ -178,11 +242,18 @@ $font_text: 'Open Sans', sans-serif;
   @media (max-width: 480px) {
     form {
       padding: 37px 4px 31px 4px;
+      width: 100%;
     }
 
-    form input[type="text"], form select, form button {
+    form input[type="text"], form select, form button, form .select-selected, form .custom-select {
       width: 255px;
+      margin-right: auto;
+      margin-left: auto;
     }
+
+    //form .select-selected:after {
+    //  right: 110px;
+    //}
 
     form button {
       .btn {

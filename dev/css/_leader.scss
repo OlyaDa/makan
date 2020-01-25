@@ -48,6 +48,7 @@ $font_text: 'Open Sans', sans-serif;
         width: 260px;
         padding-left: 22px;
         border: 1px solid #0D081C;
+        outline: none !important;
       }
 
       input::-webkit-input-placeholder {
@@ -74,7 +75,13 @@ $font_text: 'Open Sans', sans-serif;
       button {
         background: #0194FE;
         border-radius: 20px;
-        height: 45px;
+        //height: 45px;
+        outline: none !important;
+
+        &:hover {
+          background: #FE0101;
+          //transition: .3s ease;
+        }
 
         .btn {
           font-family: $font_text;
@@ -83,7 +90,7 @@ $font_text: 'Open Sans', sans-serif;
           font-size: 15px;
           line-height: 20px;
           color: #FFFFFF;
-          padding: 0 29px;
+          padding: 10px 29px;
         }
       }
     }
@@ -196,12 +203,26 @@ $font_text: 'Open Sans', sans-serif;
     position: relative;
   }
 
-  .fa-play-circle {
-    font-size: 64px;
+  //.fa-play-circle {
+  //  font-size: 64px;
+  //  position: absolute;
+  //  top: calc(50% - 32px);
+  //  left: calc(50% - 32px);
+  //  color: #FE0101;
+  //
+  //}
+
+  .circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
     position: absolute;
     top: calc(50% - 32px);
     left: calc(50% - 32px);
-    color: #FE0101;
+    background: #FE0101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &:hover {
       transform: scale(1.2);
     }
@@ -291,7 +312,7 @@ $font_text: 'Open Sans', sans-serif;
 
     p {
       margin: 0;
-      margin-bottom: 40px;
+      margin-bottom: 45px;
     }
 
 
@@ -308,9 +329,9 @@ $font_text: 'Open Sans', sans-serif;
     .caption {
       line-height: 100%;
     }
-    p {
-      margin-bottom: 20px;
-    }
+    //p {
+    //  margin-bottom: 20px;
+    //}
   }
 
   @media (max-width: 694px) {

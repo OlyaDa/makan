@@ -1,9 +1,188 @@
 //////////////////////////FOOTER BEGIN////////////////////////
-$font_text: 'Montserrat', sans-serif;
+$font_text: 'Open Sans', sans-serif;
 
 .footer {
-  background: #F2F2F2;
-  padding: 72px 0 74px 0;
+  padding: 24px 0;
+  background: #1B1B1B;
+
+  .address {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    // margin-bottom: 24px;
+  }
+
+  .phone {
+    margin-left: 5px;
+  }
+
+  .phone a {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: relative;
+
+    .line {
+      height: 102px;
+      width: 1px;
+      background: #FE9C01;
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  .fa-mobile-alt {
+    margin-right: 5px;
+    color: #0194FE;
+  }
+
+  .icon-map:before {
+    color: #0194FE;
+  }
+
+  .social-icons {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+
+    .line {
+      height: 102px;
+      width: 1px;
+      background: #FE9C01;
+      position: absolute;
+      right: -15px;
+    }
+
+    }
+
+  .icon-facebook {
+    font-size: 40px;
+    color: rgba(1, 148, 254, 0.62);
+    &:hover {
+      text-decoration: none;
+      color: #0194FE;
+    }
+  }
+
+  .icon-youtube {
+    font-size: 58px;
+    color: rgba(1, 148, 254, 0.62);
+    &:hover {
+      text-decoration: none;
+      color: #0194FE;
+    }
+  }
+
+  .icon-instagram {
+    font-size: 40px;
+    color: rgba(1, 148, 254, 0.62);
+    &:hover {
+      text-decoration: none;
+      color: #0194FE;
+    }
+  }
+
+  .logo-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    p {
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 186.68%;
+      color: #FFFFFF;
+      max-width: 413px;
+      margin-left: 24px;
+      margin-bottom: 0;
+    }
+
+    .logo {
+      &:hover {
+        text-decoration: none;
+      }
+      .logo-main {
+        font-family: $font_text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 29px;
+        color: #FE0101;
+        margin: 0;
+
+        span {
+          font-weight: 800;
+        }
+      }
+
+      .logo-sub {
+        font-family: $font_text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #0194FE;
+        margin: 0;
+      }
+    }
+  }
+
+
+
+  ///media
+
+  @media (max-width: 991px) {
+    .logo-info {
+      justify-content: center;
+    }
+
+    .contact {
+      align-items: center;
+
+      .line {
+        display: none;
+      }
+    }
+
+    .social-icons .line {
+      display: none;
+    }
+  }
+
+  @media (max-width: 624px) {
+    .logo-info {
+      flex-direction: column;
+      p {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+      }
+    }
+  }
 
 }
 

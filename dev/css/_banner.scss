@@ -86,7 +86,7 @@ $font_text: 'Open Sans', sans-serif;
   ///media
 
   @media (max-width: 1024px) {
-    background:  linear-gradient(rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1) 100%), url("../../public/images/banner-mobile.png") center no-repeat;
+    background:  linear-gradient(rgba(0, 0, 0, 0.2) 100%, rgba(0, 0, 0, 0.2) 100%), url("../../public/images/banner-mobile.png") center no-repeat;
     background-size: cover;
   }
 

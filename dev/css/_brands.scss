@@ -20,7 +20,15 @@ $font_text: 'Open Sans', sans-serif;
     margin: 0 40px;
   }
 
+  .brands-slider {
+    outline: none !important;
+  }
+
   ///slick-prev slick-next
+
+  .fa-long-arrow-alt-left, .fa-long-arrow-alt-right {
+    transform: scaleX(2);
+  }
 
   .slick-prev:before, .slick-next:before {
     font-size: 1px;
@@ -45,8 +53,8 @@ $font_text: 'Open Sans', sans-serif;
     padding: 0;
     transform: translate(0, -50%);
     cursor: pointer;
-    color: #c4956a;
-    border: 1px solid #c4956a;
+    color: #FE0101;
+    border: 1px solid #FE0101;
     outline: none;
     background: #fff;
     z-index: 1;
@@ -54,12 +62,13 @@ $font_text: 'Open Sans', sans-serif;
 
   .slick-prev:active, .slick-next:active {
     color: #fff;
-    border: 1px solid #c4956a;
-    background: #c4956a;
+    border: 1px solid #FE0101;
+    background: #FE0101;
   }
   ///slick-prev slick-next end
 
   //slider dots begin
+
 
   .slick-dots {
     position: absolute;
@@ -79,18 +88,18 @@ $font_text: 'Open Sans', sans-serif;
     padding: 0;
     cursor: pointer;
     margin: 0 10px 0 10px;
-    border: 1px #c4956a solid;
+    border: 1px #FE0101 solid;
     border-radius: 50%;
   }
 
   .slick-dots li.slick-active {
     position: relative;
     display: inline-block;
-    border: 1px #c4956a solid;
+    border: 1px #FE0101 solid;
     width: 15px;
     height: 15px;
     cursor: pointer;
-    background-color: #c4956a;
+    background-color: #FE0101;
     border-radius: 50%;
   }
 

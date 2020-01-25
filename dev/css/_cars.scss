@@ -7,6 +7,10 @@ $font_text: 'Open Sans', sans-serif;
   background: #fff;
   position: relative;
 
+  .cars-slider {
+    outline: none !important;
+  }
+
   .cars-inner {
     display: flex;
     align-items: flex-end;
@@ -43,6 +47,10 @@ $font_text: 'Open Sans', sans-serif;
         position: absolute;
         right: -24px;
         bottom: -30px;
+        outline: none !important;
+        &:hover {
+          background: #FE0101;
+        }
 
         .btn {
           font-family: $font_text;
@@ -153,6 +161,10 @@ $font_text: 'Open Sans', sans-serif;
     right: -98%;
   }
 
+  .fa-long-arrow-alt-left, .fa-long-arrow-alt-right {
+    transform: scaleX(2);
+  }
+
   .slick-prev, .slick-next {
     top: 81.8%;
     font-size: 16px;
@@ -164,8 +176,8 @@ $font_text: 'Open Sans', sans-serif;
     padding: 0;
     transform: translate(0, -50%);
     cursor: pointer;
-    color: #c4956a;
-    border: 1px solid #c4956a;
+    color: #0194FE;
+    border: 1px solid #0194FE;
     outline: none;
     background: #fff;
     z-index: 1;
@@ -173,8 +185,8 @@ $font_text: 'Open Sans', sans-serif;
 
   .slick-prev:active, .slick-next:active {
     color: #fff;
-    border: 1px solid #c4956a;
-    background: #c4956a;
+    border: 1px solid #0194FE;
+    background: #0194FE;
   }
   ///slick-prev slick-next end
 

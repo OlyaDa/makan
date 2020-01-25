@@ -1,0 +1,386 @@
+//////////////////////////REVIEWS BEGIN////////////////////////
+$font_text: 'Open Sans', sans-serif;
+
+.reviews {
+  padding-bottom: 67px;
+
+  .reviews-slider {
+    outline: none !important;
+  }
+
+  .image-lines {
+    z-index: 4;
+  }
+
+  .slick-list {
+    padding-bottom: 48px;
+  }
+
+  .reviews-inner {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+  }
+
+  .left-part {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    width: 50%;
+
+    .image-car {
+      position: relative;
+    }
+
+    .info {
+      background: #0194FE;
+      width: 581px;
+      padding: 28px 0 28px 80px;
+      position: absolute;
+      bottom: -46px;
+      z-index: 4;
+
+      p {
+        font-family: $font_text;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 186.68%;
+        color: #FFFFFF;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .right-part {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+
+    .caption, .caption-rev {
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 45px;
+      text-align: right;
+      color: #000000;
+      //margin-bottom: 56px;
+      margin-right: 25px;
+    }
+
+    .caption-rev {
+      display: none;
+    }
+
+    .reviews-body {
+      margin-left: 79px;
+
+      p {
+        font-family: $font_text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 186.68%;
+        color: #000000;
+      }
+    }
+
+    .reviews-title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 28px;
+
+      .image {
+        max-width: 144px;
+        max-height: 144px;
+        margin-right: 40px;
+      }
+
+      .title {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .name {
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 45px;
+        color: #000000;
+        margin-bottom: 3px;
+      }
+
+      .town {
+        font-family: $font_text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 186.68%;
+        color: #000000;
+        margin-bottom: 0;
+      }
+    }
+    .reviews-text {
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 186.68%;
+      text-align: right;
+      color: #000000;
+    }
+
+  }
+
+  ///slick-prev slick-next
+
+  .fa-long-arrow-alt-left, .fa-long-arrow-alt-right {
+    transform: scaleX(2);
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 1px;
+  }
+
+  .slick-prev.slick-arrow {
+    left: 46.4%;
+  }
+
+  .slick-next {
+    right: 46.4%;
+  }
+
+  .slick-prev, .slick-next {
+    bottom: -105px;
+    font-size: 16px;
+    line-height: 0;
+    position: absolute;
+    display: block;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: #0194FE;
+    border: 1px solid #0194FE;
+    outline: none;
+    background: #fff;
+    z-index: 1;
+  }
+
+  .slick-prev:active, .slick-next:active {
+    color: #fff;
+    border: 1px solid #0194FE;
+    background: #0194FE;
+  }
+  ///slick-prev slick-next end
+
+  //slider dots begin
+
+  .slick-dots {
+    position: absolute;
+    bottom: -60px;
+    display: block;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+  }
+
+
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+    border: 1px #0194FE solid;
+    border-radius: 50%;
+  }
+
+  .slick-dots li.slick-active {
+    position: relative;
+    display: inline-block;
+    border: 1px #0194FE solid;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background-color: #0194FE;
+    border-radius: 50%;
+  }
+
+  .slick-dots li button:before {
+    content: "";
+  }
+
+  //slider dots end
+
+  ////media
+
+  @media (max-width: 1300px) {
+    .slick-prev.slick-arrow {
+      left: 46%;
+    }
+
+    .slick-next {
+      right: 46%;
+    }
+  }
+
+  @media (max-width: 1190px) {
+    .slick-prev.slick-arrow {
+      left: 45%;
+    }
+
+    .slick-next {
+      right: 45%;
+    }
+  }
+
+  @media (max-width: 991px) {
+
+    .slick-prev, .slick-next {
+      bottom: -20px;
+    }
+
+  }
+
+  @media (max-width: 945px) {
+    .slick-prev.slick-arrow {
+      left: 44%;
+    }
+
+    .slick-next {
+      right: 44%;
+    }
+  }
+
+  @media (max-width: 840px) {
+    .slick-prev.slick-arrow {
+      left: 43%;
+    }
+
+    .slick-next {
+      right: 43%;
+    }
+  }
+
+  @media (max-width: 1200px) {
+
+    .right-part .reviews-body {
+      margin-left: 25px;
+    }
+
+    .right-part .reviews-title .image {
+      max-width: 110px;
+      max-height: 110px;
+    }
+  }
+
+  @media (max-width: 1160px) {
+    .left-part .info {
+      padding: 25px 7px 25px 7px;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 1090px) {
+
+    .right-part .reviews-body {
+      margin-left: 10px;
+    }
+
+    .right-part .reviews-title {
+      margin-bottom: 10px;
+    }
+
+    .right-part .reviews-title .image {
+      max-width: 100px;
+      max-height: 100px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    padding: 40px 0 0 0;
+
+    .right-part .caption-rev {
+      display: block;
+        line-height: 27px;
+    }
+
+    .top {
+      display: none;
+    }
+
+    .reviews-inner {
+      flex-direction: column;
+    }
+    .left-part {
+      width: 100%;
+      margin-bottom: 75px;
+    }
+
+    .right-part .caption-rev {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .right-part .reviews-title {
+      display: flex;
+      justify-content: center;
+    }
+
+    .right-part .reviews-body p {
+      text-align: center;
+    }
+
+    .right-part {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .slick-list {
+      padding-bottom: 0;
+    }
+
+     .slick-dots {
+      bottom: -25px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .right-part .caption-rev {
+      font-size: 20px;
+    }
+
+    .left-part .info {
+
+
+      p {
+        font-size: 12px;
+        line-height: 130.68%;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .right-part .reviews-title {
+      flex-direction: column;
+    }
+
+
+
+    .right-part .reviews-title .image {
+      margin: 0;
+    }
+  }
+
+}
+
+//////////////////////////REVIEWS END////////////////////////

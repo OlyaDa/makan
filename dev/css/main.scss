@@ -4,175 +4,16 @@ $caption_text: Cera Pro, sans-serif;
 @import "header";
 @import "banner";
 @import "delivery";
-@import "venecja";
+@import "reviews";
 @import "how";
 @import "brands";
-@import "rialto";
-@import "flamingo";
 @import "map";
 @import "choice";
-@import "certificates";
 @import "why";
 @import "leader";
 @import "cars";
 @import "gallery";
 @import "footer";
-
-//@font-face {
-//  font-family: 'icomoon';
-//  src:  url('../../public/fonts/icomoon.eot?e40hu6');
-//  src:  url('../../public/fonts/icomoon.eot?e40hu6#iefix') format('embedded-opentype'),
-//  url('../../public/fonts/icomoon.ttf?e40hu6') format('truetype'),
-//  url('../../public/fonts/icomoon.woff?e40hu6') format('woff'),
-//  url('../../public/fonts/icomoon.svg?e40hu6#icomoon') format('svg');
-//  font-weight: normal;
-//  font-style: normal;
-//  font-display: block;
-//}
-//
-//[class^="icon-"], [class*=" icon-"] {
-//  /* use !important to prevent issues with browser extensions that change fonts */
-//  font-family: 'icomoon' !important;
-//  speak: none;
-//  font-style: normal;
-//  font-weight: normal;
-//  font-variant: normal;
-//  text-transform: none;
-//  line-height: 1;
-//
-//  /* Better Font Rendering =========== */
-//  -webkit-font-smoothing: antialiased;
-//  -moz-osx-font-smoothing: grayscale;
-//}
-//
-//.icon-ant-design_youtube-filled1:before {
-//  content: "\e90e";
-//  color: #0194fe;
-//}
-//.icon-brandico_facebook-rect1:before {
-//  content: "\e90f";
-//  color: #0194fe;
-//}
-//.icon-bx_bxl-instagram-alt1:before {
-//  content: "\e910";
-//  color: #0194fe;
-//}
-//.icon-car-1-12:before {
-//  content: "\e911";
-//  color: #fe0101;
-//  font-size: 96px;
-//}
-//.icon-car-2-11:before {
-//  content: "\e912";
-//  color: #fe0101;
-//  font-size: 78px;
-//}
-//.icon-car-1-13:before {
-//  content: "\e913";
-//  color: #fff;
-//}
-//.icon-el_map-marker1:before {
-//  content: "\e914";
-//  color: #fe0101;
-//}
-//.icon-flat-color-icons_like1:before {
-//  content: "\e915";
-//  color: #f44336;
-//}
-//.icon-gas-11:before {
-//  content: "\e916";
-//  color: #fe0101;
-//  font-size: 96px;
-//}
-//.icon-gridicons_phone1:before {
-//  content: "\e917";
-//  color: #fe0101;
-//}
-
-
-//.icon-money-back-1-11:before {
-//  content: "\e918";
-//  color: #fff;
-//}
-//.icon-patent-11:before {
-//  content: "\e919";
-//  color: #fff;
-//}
-//.icon-play .path1:before {
-//  content: "\e91a";
-//  color: rgb(254, 1, 1);
-//}
-//.icon-play .path2:before {
-//  content: "\e91b";
-//  margin-left: -1em;
-//  color: rgb(255, 255, 255);
-//}
-//.icon-sale-11:before {
-//  content: "\e91c";
-//  color: #fe0101;
-//  font-size: 78px;
-//}
-//.icon-Vector:before {
-//  content: "\e900";
-//  color: #0194fe;
-//}
-//.icon-ant-design_youtube-filled:before {
-//  content: "\e901";
-//  color: #0194fe;
-//}
-//.icon-brandico_facebook-rect:before {
-//  content: "\e902";
-//  color: #0194fe;
-//}
-//.icon-bx_bxl-instagram-alt:before {
-//  content: "\e903";
-//  color: #0194fe;
-//}
-//.icon-car-1-1:before {
-//  content: "\e904";
-//  color: #fe0101;
-//}
-//.icon-car-2-1:before {
-//  content: "\e905";
-//  color: #fe0101;
-//}
-//.icon-car-1-11:before {
-//  content: "\e906";
-//  color: #fff;
-//  font-size: 64px;
-//}
-//.icon-el_map-marker:before {
-//  content: "\e907";
-//  color: #fe0101;
-//  margin-right: 6px;
-//}
-//.icon-flat-color-icons_like:before {
-//  content: "\e908";
-//  color: #f44336;
-//}
-//.icon-gas-1:before {
-//  content: "\e909";
-//  color: #fe0101;
-//}
-//.icon-gridicons_phone:before {
-//  content: "\e90a";
-//  color: #fe0101;
-//  margin-right: 5px;
-//}
-//.icon-money-back-1-1:before {
-//  content: "\e90b";
-//  color: #fff;
-//  font-size: 42px;
-//}
-//.icon-patent-1:before {
-//  content: "\e90c";
-//  color: #fff;
-//  font-size: 42px;
-//}
-//.icon-sale-1:before {
-//  content: "\e90d";
-//  color: #fe0101;
-//}
 
 @font-face {
   font-family: 'fontello';
@@ -185,6 +26,7 @@ $caption_text: Cera Pro, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
+
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
 /*
@@ -266,20 +108,30 @@ $caption_text: Cera Pro, sans-serif;
   font-size: 42px;
 }
 
-.icon-youtube:before { content: '\e800'; }
-.icon-facebook:before { content: '\e801'; }
-.icon-instagram:before { content: '\e802'; }
+.icon-youtube:before {
+  content: '\e800';
+}
+
+.icon-facebook:before {
+  content: '\e801';
+}
+
+.icon-instagram:before {
+  content: '\e802';
+}
 
 .icon-car-red:before {
   content: '\e803';
   color: #fe0101;
   font-size: 96px;
 }
+
 .icon-gas:before {
   content: '\e808';
   color: #fe0101;
   font-size: 96px;
 }
+
 .icon-car-red2:before {
   content: '\e804';
   color: #fe0101;
@@ -292,7 +144,11 @@ $caption_text: Cera Pro, sans-serif;
   font-size: 80px;
 }
 
-.icon-play:before { content: '\e80a'; }
+.icon-play:before {
+  content: '\e80a';
+  color: #fff;
+  font-size: 45px;
+}
 
 .icon-like:before {
   content: '\e807';
@@ -305,6 +161,8 @@ $caption_text: Cera Pro, sans-serif;
   font-size: 18px;
   color: #0194FE;
 }
+
+////////////////////////////////////////MAIN/////////////////////////////////
 
 * {
   box-sizing: border-box;
@@ -346,133 +204,227 @@ img {
   height: auto;
 }
 
+.btn {
+  outline: none!important;
+}
+
+.devgen {
+  background: #000;
+  display: flex;
+  justify-content: center;
+
+  a {
+    color: #FFFFFF;
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
 /////////////////////POPUP///////////////////
 
 .popup {
-  background: #FFFFFF;
-  max-width: 538px;
+  background: #fff;
+  max-width: 428px;
   margin: 0 auto;
-  text-align: center;
   position: relative;
-  padding: 45px 0 45px 0;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  padding: 25px 0 25px 0;
+  position: relative;
+
+  .image1 {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    z-index: -1;
+  }
+
+  .image2 {
+    position: absolute;
+    left: 0;
+    top: 138px;
+    z-index: 0;
+  }
 
   form {
-    display: inline-block;
-    background: #fff;
-    padding: 0 40px 0 40px;
-
     text-align: center;
+    z-index: 3;
+
+    .logo {
+      display: block;
+      margin-bottom: 12px;
+      z-index: 3;
+
+      &:hover {
+        text-decoration: none;
+      }
+      .logo-main {
+        font-family: $font_text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 29px;
+        color: #FE0101;
+        margin: 0;
+
+        span {
+          font-weight: 800;
+        }
+      }
+
+      .logo-sub {
+        font-family: $font_text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #0194FE;
+        margin: 0;
+      }
+    }
 
     .form-title {
       font-family: $font_text;
       font-style: normal;
-      font-weight: 900;
-      font-size: 16px;
-      line-height: 24px;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 186.68%;
       text-align: center;
       text-transform: uppercase;
-      margin-bottom: 37px;
-      color: #08203E;
+      color: #252525;
+      margin-bottom: 31px;
+      z-index: 3;
     }
 
     input {
-      padding: 11px 7px;
-      width: 423px;
-      display: block;
-      border: none;
-      border-bottom: 1px solid #08203E;
       font-family: $font_text;
       font-style: normal;
-      font-weight: 300;
-      font-size: 18px;
-      line-height: 147.69%;
-      text-transform: uppercase;
-      color: #08203E;
-    }
-
-    label {
-      font-family: $font_text;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 12px;
-      line-height: 147.69%;
-      text-transform: uppercase;
-      color: #08203E;
-      margin-bottom: 7px;
-      text-align: initial;
-      display: block;
-    }
-
-    input[type="text"] {
-      margin-bottom:24px;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 186.68%;
+      color: #000000;
+      background: #fff;
+      border: 1px solid #FE0101;
+      border-radius: 20px;
+      padding: 10px 22px;
+      width: 366px;
+      display: inline-block;
+      margin-bottom: 31px;
+      outline: none !important;
+      z-index: 3;
     }
 
     input[type="tel"] {
-      margin-bottom: 38px;
-    }
-    input:focus {
-      outline: none;
+      margin-bottom: 55px;
     }
 
-    textarea {
-      width: 367px;
-      height: 90px;
-      display: block;
-      font-family: "Comfortaa", sans-serif;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 21px;
-      text-transform: uppercase;
-      margin-left: auto;
-      margin-right: auto;
-      color: #2D2D2D;
-      border: 1px solid #898989;
-      border-radius: 10px;
-      padding: 16px 14px 32px 26px;
-      background: transparent;
-      margin-top: 3px;
+    input::-webkit-input-placeholder {
+      color: #000;
+    }
+    input::-ms-input-placeholder {
+      color: #000;
+    }
+    input::-ms-input-placeholder {
+      color: #000;
+    }
+    input::placeholder {
+      color: #000;
     }
 
     button {
-      margin-left: auto;
-      margin-right: auto;
-      background: #ED1D24;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-      border-radius: 4px;
-      border: 2px solid #ED1D24;
-      .btn {
-        font-family: "Open Sans", sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 13px;
-        line-height: 18px;
-        letter-spacing: 0.1em;
-        text-align: center;
-        color: #FFFFFF;
-        padding: 17px 36px;
-      }
+      background: #FE0101;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+      border-radius: 20px;
+      border: 1px solid #FE0101;
+      outline: none !important;
+      margin-bottom: 38px;
+      z-index: 3;
+
       &:hover {
-        background: #fff;
-        .btn {
-          color: #ED1D24;
-        }
+        background: #0194FE;
+        border: 1px solid #0194FE;
+      }
+
+      .btn {
+        font-family: $font_text;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 186.68%;
+        color: #FFFFFF;
+        padding: 12px 78px;
+      }
+    }
+
+    p {
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 186.68%;
+      text-align: center;
+      color: #252525;
+      margin-bottom: 31px;
+      z-index: 3;
+    }
+
+    .social-icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .icon-facebook {
+      font-size: 40px;
+      color: rgba(254, 1, 1, 0.64);
+      &:hover {
+        text-decoration: none;
+        color: #FE0101;
+      }
+    }
+
+    .icon-youtube {
+      font-size: 58px;
+      color: rgba(254, 1, 1, 0.64);
+      &:hover {
+        text-decoration: none;
+        color: #FE0101;
+      }
+    }
+
+    .icon-instagram {
+      font-size: 40px;
+      color: rgba(254, 1, 1, 0.64);
+      margin: 0 7px 0 15px;
+      &:hover {
+        text-decoration: none;
+        color: #FE0101;
       }
     }
   }
 
-  ///media
+  @media (max-width: 450px) {
+    form input {
+      width: 100%;
+    }
 
-  @media (max-width: 580px) {
-    padding: 45px 40px 45px 40px;
-    form {
-      padding: 20px 0 20px 0;
-      display: block;
+    form .form-title, form input, form input[type="tel"], form button {
+      margin-bottom: 20px;
+    }
 
-      input {
-        width: 100%;
-      }
+    form p {
+      margin-bottom: 0;
     }
   }
+
+  @media (max-width: 345px) {
+    form button .btn {
+      padding: 12px 55px;
+    }
+  }
+
 }
