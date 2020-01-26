@@ -9,8 +9,6 @@ $font_text: 'Open Sans', sans-serif;
   position: relative;
 
   .caption {
-    font-family: $font_text;
-    font-style: normal;
     font-weight: 800;
     font-size: 24px;
     line-height: 45px;
@@ -19,9 +17,6 @@ $font_text: 'Open Sans', sans-serif;
   }
 
   p {
-    font-family: $font_text;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 186.68%;
     color: #FFFFFF;
@@ -50,8 +45,6 @@ $font_text: 'Open Sans', sans-serif;
       max-width: 392px;
       margin-left: auto;
       margin-right: auto;
-      font-family: $font_text;
-      font-style: normal;
       font-weight: bold;
       font-size: 14px;
       line-height: 186.68%;
@@ -98,24 +91,22 @@ $font_text: 'Open Sans', sans-serif;
     }
 
     /* style the items (options), including the selected item: */
-    .select-items div,.select-selected {
-        outline: none !important;
-        background: #FFFFFF;
-        border: 2px solid #FFFFFF;
-        border-radius: 20px;
-        padding: 10px 0 10px 22px;
-        -webkit-appearance: none;
-        width: 100%;
-        font-family: $font_text;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 186.68%;
-        color: #000000;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        text-align: left;
+    .select-items div, .select-selected {
+      outline: none !important;
+      background: #FFFFFF;
+      border: 2px solid #FFFFFF;
+      border-radius: 20px;
+      padding: 10px 0 10px 22px;
+      -webkit-appearance: none;
+      width: 100%;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 186.68%;
+      color: #000000;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      text-align: left;
     }
 
     /* Style items (options): */
@@ -148,8 +139,6 @@ $font_text: 'Open Sans', sans-serif;
       padding: 10px 0 10px 22px;
       -webkit-appearance: none;
       width: 366px;
-      font-family: $font_text;
-      font-style: normal;
       font-weight: bold;
       font-size: 14px;
       line-height: 186.68%;
@@ -176,7 +165,7 @@ $font_text: 'Open Sans', sans-serif;
 
     button {
       background: #FFFFFF;
-      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
       border-radius: 20px;
       position: absolute;
       width: 310px;
@@ -191,8 +180,6 @@ $font_text: 'Open Sans', sans-serif;
       }
 
       .btn {
-        font-family: $font_text;
-        font-style: normal;
         font-weight: 800;
         font-size: 14px;
         line-height: 186.68%;
@@ -250,10 +237,6 @@ $font_text: 'Open Sans', sans-serif;
       margin-right: auto;
       margin-left: auto;
     }
-
-    //form .select-selected:after {
-    //  right: 110px;
-    //}
 
     form button {
       .btn {

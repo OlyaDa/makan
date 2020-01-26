@@ -6,9 +6,6 @@ $font_text: 'Open Sans', sans-serif;
   background: #1B1B1B;
 
   .address {
-    font-family: $font_text;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 19px;
     color: #FFFFFF;
@@ -20,8 +17,6 @@ $font_text: 'Open Sans', sans-serif;
   }
 
   .phone a {
-    font-family: $font_text;
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
@@ -73,7 +68,7 @@ $font_text: 'Open Sans', sans-serif;
       right: -15px;
     }
 
-    }
+  }
 
   .icon-facebook {
     font-size: 40px;
@@ -108,9 +103,6 @@ $font_text: 'Open Sans', sans-serif;
     justify-content: flex-end;
 
     p {
-      font-family: $font_text;
-      font-style: normal;
-      font-weight: normal;
       font-size: 12px;
       line-height: 186.68%;
       color: #FFFFFF;
@@ -124,9 +116,6 @@ $font_text: 'Open Sans', sans-serif;
         text-decoration: none;
       }
       .logo-main {
-        font-family: $font_text;
-        font-style: normal;
-        font-weight: normal;
         font-size: 21px;
         line-height: 29px;
         color: #FE0101;
@@ -138,9 +127,6 @@ $font_text: 'Open Sans', sans-serif;
       }
 
       .logo-sub {
-        font-family: $font_text;
-        font-style: normal;
-        font-weight: normal;
         font-size: 11px;
         line-height: 15px;
         text-transform: uppercase;
@@ -149,8 +135,6 @@ $font_text: 'Open Sans', sans-serif;
       }
     }
   }
-
-
 
   ///media
 

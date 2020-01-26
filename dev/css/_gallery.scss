@@ -6,12 +6,10 @@ $font_text: 'Open Sans', sans-serif;
   background: #fff;
 
   .gallery-slider {
-  outline: none !important;
+    outline: none !important;
   }
 
   .caption {
-    font-family: $font_text;
-    font-style: normal;
     font-weight: 800;
     font-size: 24px;
     line-height: 45px;
@@ -65,8 +63,6 @@ $font_text: 'Open Sans', sans-serif;
     align-items: center;
 
     p {
-      font-family: $font_text;
-      font-style: normal;
       font-weight: 600;
       font-size: 14px;
       line-height: 186.68%;
@@ -76,8 +72,6 @@ $font_text: 'Open Sans', sans-serif;
     }
 
     .number {
-      font-family: $font_text;
-      font-style: normal;
       font-weight: 600;
       font-size: 14px;
       line-height: 186.68%;
@@ -156,7 +150,6 @@ $font_text: 'Open Sans', sans-serif;
     text-align: center;
   }
 
-
   .slick-dots li {
     position: relative;
     display: inline-block;
@@ -185,7 +178,6 @@ $font_text: 'Open Sans', sans-serif;
   }
 
   //slider dots end
-
 
   ///media
 
@@ -257,6 +249,5 @@ $font_text: 'Open Sans', sans-serif;
     }
   }
 }
-
 
 //////////////////////////REVIEWS END////////////////////////

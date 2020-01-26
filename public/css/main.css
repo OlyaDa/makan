@@ -24,9 +24,6 @@
   .header .logo:hover {
     text-decoration: none; }
   .header .logo .logo-main {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 21px;
     line-height: 29px;
     color: #FE0101;
@@ -34,9 +31,6 @@
     .header .logo .logo-main span {
       font-weight: 800; }
   .header .logo .logo-sub {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 11px;
     line-height: 15px;
     text-transform: uppercase;
@@ -69,8 +63,6 @@
   .header .menu li:first-child {
     margin-left: 0; }
   .header .menu a {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
@@ -93,9 +85,6 @@
     -ms-flex-pack: end;
     justify-content: flex-end; }
   .header .address p {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 19px;
     color: #FFFFFF;
@@ -103,8 +92,6 @@
   .header .phone {
     margin: 0; }
     .header .phone a {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
       font-weight: bold;
       font-size: 18px;
       line-height: 25px;
@@ -121,9 +108,6 @@
     -ms-flex-pack: end;
     justify-content: flex-end; }
     .header .button .btn {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
-      font-weight: normal;
       font-size: 12px;
       line-height: 16px;
       -webkit-text-decoration-line: underline;
@@ -168,8 +152,6 @@
       .header .mobile-menu .right-menu li:first-child {
         margin-top: 79px; }
       .header .mobile-menu .right-menu li a {
-        font-family: "Open Sans", sans-serif;
-        font-style: normal;
         font-weight: 600;
         font-size: 14px;
         line-height: 19px;
@@ -301,7 +283,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    min-height: calc( 85vh - 92px );
+    min-height: calc(85vh - 92px);
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly; }
@@ -390,8 +372,6 @@
   background: #fff;
   padding: 164px 0 59px 0; }
   .delivery .caption {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 24px;
     line-height: 45px;
@@ -399,9 +379,6 @@
     color: #252525;
     margin-bottom: 29px; }
   .delivery .sub-text {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 186.68%;
     text-align: center;
@@ -416,8 +393,8 @@
   .delivery .item {
     padding: 46px 22px 25px 22px;
     background: #FFFFFF;
-    -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -430,8 +407,6 @@
     -ms-flex-pack: justify;
     justify-content: space-between; }
     .delivery .item h6 {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
       font-weight: bold;
       font-size: 14px;
       line-height: 19px;
@@ -447,9 +422,6 @@
       margin-left: auto;
       margin-right: auto; }
     .delivery .item p {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
-      font-weight: normal;
       font-size: 14px;
       line-height: 22px;
       text-align: center;
@@ -459,15 +431,13 @@
       background: #FE0101;
       border-radius: 20px;
       display: inline-block;
-      width: 95%;
+      width: 80%;
       margin-left: auto;
       margin-right: auto;
       outline: none !important; }
       .delivery .item .button:hover {
         background: #0194FE; }
       .delivery .item .button .btn {
-        font-family: "Open Sans", sans-serif;
-        font-style: normal;
         font-weight: 600;
         font-size: 15px;
         line-height: 20px;
@@ -544,8 +514,6 @@
       bottom: -46px;
       z-index: 4; }
       .reviews .left-part .info p {
-        font-family: "Open Sans", sans-serif;
-        font-style: normal;
         font-weight: bold;
         font-size: 14px;
         line-height: 186.68%;
@@ -564,8 +532,6 @@
     width: 50%;
     position: relative; }
     .reviews .right-part .caption, .reviews .right-part .caption-rev {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
       font-weight: 800;
       font-size: 24px;
       line-height: 45px;
@@ -577,9 +543,6 @@
     .reviews .right-part .reviews-body {
       margin-left: 79px; }
       .reviews .right-part .reviews-body p {
-        font-family: "Open Sans", sans-serif;
-        font-style: normal;
-        font-weight: normal;
         font-size: 14px;
         line-height: 186.68%;
         color: #000000; }
@@ -604,25 +567,17 @@
         -ms-flex-direction: column;
         flex-direction: column; }
       .reviews .right-part .reviews-title .name {
-        font-family: "Open Sans", sans-serif;
-        font-style: normal;
         font-weight: 800;
         font-size: 24px;
         line-height: 45px;
         color: #000000;
         margin-bottom: 3px; }
       .reviews .right-part .reviews-title .town {
-        font-family: "Open Sans", sans-serif;
-        font-style: normal;
-        font-weight: normal;
         font-size: 18px;
         line-height: 186.68%;
         color: #000000;
         margin-bottom: 0; }
     .reviews .right-part .reviews-text {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
-      font-weight: normal;
       font-size: 18px;
       line-height: 186.68%;
       text-align: right;
@@ -780,13 +735,11 @@
   padding: 85px 0 117px 0;
   background: -webkit-gradient(linear, left top, right top, color-stop(-0.83%, #010105), color-stop(51.41%, rgba(5, 1, 35, 0)), to(#04020F)), url("../../public/images/bg-how.png") center no-repeat;
   background: linear-gradient(90deg, #010105 -0.83%, rgba(5, 1, 35, 0) 51.41%, #04020F 100%), url("../../public/images/bg-how.png") center no-repeat;
-  -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   background-size: cover;
   overflow: hidden; }
   .how .caption {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 24px;
     line-height: 45px;
@@ -794,8 +747,6 @@
     color: #0194FE;
     margin-bottom: 45px; }
   .how h6 {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 186.68%;
@@ -805,8 +756,8 @@
     z-index: 1; }
   .how .text {
     background: #000000;
-    -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     padding: 19px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -822,8 +773,6 @@
     height: 100%; }
     .how .text .number {
       position: absolute;
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
       font-weight: 800;
       font-size: 165px;
       line-height: 186.68%;
@@ -832,9 +781,6 @@
       right: -35px;
       bottom: -150px; }
     .how .text p {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
-      font-weight: normal;
       font-size: 14px;
       line-height: 186.68%;
       text-align: center;
@@ -864,8 +810,6 @@
   background: #fff;
   padding: 59px 0 199px 0; }
   .brands .caption {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 24px;
     line-height: 45px;
@@ -1027,17 +971,12 @@
   padding: 80px 0 74px 0;
   position: relative; }
   .choice .caption {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 24px;
     line-height: 45px;
     color: #FE0101;
     margin-bottom: 30px; }
   .choice p {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 186.68%;
     color: #FFFFFF; }
@@ -1065,8 +1004,6 @@
       max-width: 392px;
       margin-left: auto;
       margin-right: auto;
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
       font-weight: bold;
       font-size: 14px;
       line-height: 186.68%;
@@ -1105,8 +1042,6 @@
       padding: 10px 0 10px 22px;
       -webkit-appearance: none;
       width: 100%;
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
       font-weight: bold;
       font-size: 14px;
       line-height: 186.68%;
@@ -1135,8 +1070,6 @@
       padding: 10px 0 10px 22px;
       -webkit-appearance: none;
       width: 366px;
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
       font-weight: bold;
       font-size: 14px;
       line-height: 186.68%;
@@ -1156,8 +1089,8 @@
       outline: none !important; }
     .choice form button {
       background: #FFFFFF;
-      -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+      -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
       border-radius: 20px;
       position: absolute;
       width: 310px;
@@ -1170,8 +1103,6 @@
         background: #FE0101;
         border: 1px solid #FE0101; }
       .choice form button .btn {
-        font-family: "Open Sans", sans-serif;
-        font-style: normal;
         font-weight: 800;
         font-size: 14px;
         line-height: 186.68%;
@@ -1216,11 +1147,9 @@
   position: relative;
   background: url("../../public/images/bg-why.png") center no-repeat;
   background-size: cover;
-  -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5); }
+  -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); }
   .why .caption {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 24px;
     line-height: 45px;
@@ -1246,8 +1175,6 @@
     -ms-flex-align: center;
     align-items: center; }
     .why .item h6 {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
       font-weight: bold;
       font-size: 14px;
       line-height: 19px;
@@ -1256,9 +1183,6 @@
       color: #FFFFFF;
       max-width: 183px; }
     .why .item p {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
-      font-weight: normal;
       font-size: 14px;
       line-height: 186.68%;
       text-align: center;
@@ -1293,8 +1217,6 @@
     z-index: 1;
     width: 100%; }
     .leader .form-banner .title {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
       font-weight: bold;
       font-size: 14px;
       line-height: 19px;
@@ -1312,9 +1234,6 @@
       -ms-flex-align: center;
       align-items: center; }
       .leader .form-banner form p {
-        font-family: "Open Sans", sans-serif;
-        font-style: normal;
-        font-weight: normal;
         font-size: 12px;
         line-height: 16px;
         text-align: center;
@@ -1349,8 +1268,6 @@
         .leader .form-banner form button:hover {
           background: #FE0101; }
         .leader .form-banner form button .btn {
-          font-family: "Open Sans", sans-serif;
-          font-style: normal;
           font-weight: 600;
           font-size: 15px;
           line-height: 20px;
@@ -1461,8 +1378,6 @@
       -webkit-transform: scale(1.2);
       transform: scale(1.2); }
   .leader .caption {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 24px;
     line-height: 45px;
@@ -1471,9 +1386,6 @@
     margin-bottom: 18px; }
   .leader p {
     max-width: 496px;
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 186.68%;
     color: #3C3C3C;
@@ -1511,8 +1423,7 @@
         .leader .form-banner .title {
           display: none; }
       .leader p {
-        margin: 0;
-        margin-bottom: 45px; }
+        margin: 0 0 45px; }
       .leader .leader-inner {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -1568,8 +1479,8 @@
       .cars .left-part .info .button {
         background: #0194FE;
         border-radius: 20px;
-        -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         display: inline-block;
         position: absolute;
         right: -24px;
@@ -1578,23 +1489,17 @@
         .cars .left-part .info .button:hover {
           background: #FE0101; }
         .cars .left-part .info .button .btn {
-          font-family: "Open Sans", sans-serif;
-          font-style: normal;
           font-weight: 800;
           font-size: 14px;
           line-height: 186.68%;
           color: #FFFFFF;
           padding: 13px 90px; }
       .cars .left-part .info .title {
-        font-family: "Open Sans", sans-serif;
-        font-style: normal;
         font-weight: bold;
         font-size: 14px;
         line-height: 186.68%;
         color: #FFFFFF; }
       .cars .left-part .info .price {
-        font-family: "Open Sans", sans-serif;
-        font-style: normal;
         font-weight: 800;
         font-size: 14px;
         line-height: 186.68%;
@@ -1616,8 +1521,6 @@
     width: 50%;
     position: relative; }
     .cars .right-part .caption {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
       font-weight: 800;
       font-size: 24px;
       line-height: 45px;
@@ -1629,8 +1532,6 @@
       .cars .right-part .caption span {
         color: #FE0101; }
     .cars .right-part p {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
       font-weight: normal;
       font-size: 18px;
       line-height: 186.68%;
@@ -1801,8 +1702,6 @@
   .gallery .gallery-slider {
     outline: none !important; }
   .gallery .caption {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 24px;
     line-height: 45px;
@@ -1865,8 +1764,6 @@
     -ms-flex-align: center;
     align-items: center; }
     .gallery .overlay p {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
       font-weight: 600;
       font-size: 14px;
       line-height: 186.68%;
@@ -1874,8 +1771,6 @@
       color: #FFFFFF;
       bottom: 20px; }
     .gallery .overlay .number {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
       font-weight: 600;
       font-size: 14px;
       line-height: 186.68%;
@@ -1992,17 +1887,12 @@
   padding: 24px 0;
   background: #1B1B1B; }
   .footer .address {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 19px;
     color: #FFFFFF; }
   .footer .phone {
     margin-left: 5px; }
   .footer .phone a {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
@@ -2086,9 +1976,6 @@
     -ms-flex-pack: end;
     justify-content: flex-end; }
     .footer .logo-info p {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
-      font-weight: normal;
       font-size: 12px;
       line-height: 186.68%;
       color: #FFFFFF;
@@ -2098,9 +1985,6 @@
     .footer .logo-info .logo:hover {
       text-decoration: none; }
     .footer .logo-info .logo .logo-main {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
-      font-weight: normal;
       font-size: 21px;
       line-height: 29px;
       color: #FE0101;
@@ -2108,9 +1992,6 @@
       .footer .logo-info .logo .logo-main span {
         font-weight: 800; }
     .footer .logo-info .logo .logo-sub {
-      font-family: "Open Sans", sans-serif;
-      font-style: normal;
-      font-weight: normal;
       font-size: 11px;
       line-height: 15px;
       text-transform: uppercase;
@@ -2262,8 +2143,41 @@
   box-sizing: border-box; }
 
 body {
-  font-family: open-sans, Arial, sans-serif;
-  background-color: #fff; }
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  background-color: #fff;
+  font-style: normal;
+  font-weight: normal; }
+
+form button {
+  background: #0194FE;
+  border-radius: 20px;
+  outline: none !important; }
+  form button:hover {
+    background: #FE0101; }
+  form button .btn {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 10px 29px; }
+
+.logo:hover {
+  text-decoration: none; }
+.logo .logo-main {
+  font-size: 21px;
+  line-height: 29px;
+  color: #FE0101;
+  margin: 0; }
+  .logo .logo-main span {
+    font-weight: 800; }
+.logo .logo-sub {
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #0194FE;
+  margin: 0; }
 
 .list-reset {
   list-style: none;
@@ -2317,8 +2231,7 @@ img {
   max-width: 428px;
   margin: 0 auto;
   position: relative;
-  padding: 25px 0 25px 0;
-  position: relative; }
+  padding: 25px 0 25px 0; }
   .popup .image1 {
     position: absolute;
     top: -25px;
@@ -2398,8 +2311,8 @@ img {
       color: #000; }
     .popup form button {
       background: #FE0101;
-      -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+      -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
       border-radius: 20px;
       border: 1px solid #FE0101;
       outline: none !important;

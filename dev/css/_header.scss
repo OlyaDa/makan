@@ -26,9 +26,6 @@ $font_text: 'Open Sans', sans-serif;
       text-decoration: none;
     }
     .logo-main {
-      font-family: $font_text;
-      font-style: normal;
-      font-weight: normal;
       font-size: 21px;
       line-height: 29px;
       color: #FE0101;
@@ -40,9 +37,6 @@ $font_text: 'Open Sans', sans-serif;
     }
 
     .logo-sub {
-      font-family: $font_text;
-      font-style: normal;
-      font-weight: normal;
       font-size: 11px;
       line-height: 15px;
       text-transform: uppercase;
@@ -75,8 +69,6 @@ $font_text: 'Open Sans', sans-serif;
   }
 
   .menu a {
-    font-family: $font_text;
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
@@ -98,10 +90,7 @@ $font_text: 'Open Sans', sans-serif;
     justify-content: flex-end;
   }
 
-  .address  p {
-    font-family: $font_text;
-    font-style: normal;
-    font-weight: normal;
+  .address p {
     font-size: 14px;
     line-height: 19px;
     color: #FFFFFF;
@@ -111,8 +100,6 @@ $font_text: 'Open Sans', sans-serif;
   .phone {
     margin: 0;
     a {
-      font-family: $font_text;
-      font-style: normal;
       font-weight: bold;
       font-size: 18px;
       line-height: 25px;
@@ -132,9 +119,6 @@ $font_text: 'Open Sans', sans-serif;
     justify-content: flex-end;
 
     .btn {
-      font-family: $font_text;
-      font-style: normal;
-      font-weight: normal;
       font-size: 12px;
       line-height: 16px;
       text-decoration-line: underline;
@@ -158,10 +142,10 @@ $font_text: 'Open Sans', sans-serif;
     bottom: 0;
     transition: all .3s ease-in-out;
     max-width: 80vw;
-    right:-100%;
+    right: -100%;
     min-height: 100vh;
     background: #252525;
-    opacity:0;
+    opacity: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -185,8 +169,6 @@ $font_text: 'Open Sans', sans-serif;
       }
 
       li a {
-        font-family: $font_text;
-        font-style: normal;
         font-weight: 600;
         font-size: 14px;
         line-height: 19px;
@@ -217,7 +199,6 @@ $font_text: 'Open Sans', sans-serif;
     display: none;
     z-index: 3;
 
-
     span {
       position: absolute;
       background-color: #fff;
@@ -236,7 +217,7 @@ $font_text: 'Open Sans', sans-serif;
         content: "";
         display: block;
       }
-      &:after{
+      &:after {
         position: absolute;
         background: #fff;
         width: 18px;
@@ -272,7 +253,7 @@ $font_text: 'Open Sans', sans-serif;
   ///media
 
   @media (max-width: 970px) {
-   .contact {
+    .contact {
       display: none;
     }
 

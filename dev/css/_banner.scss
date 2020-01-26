@@ -14,7 +14,7 @@ $font_text: 'Open Sans', sans-serif;
   .banner-inner {
     display: flex;
     flex-direction: column;
-    min-height: calc( 85vh - 92px );
+    min-height: calc(85vh - 92px);
     justify-content: space-evenly;
   }
 
@@ -38,18 +38,6 @@ $font_text: 'Open Sans', sans-serif;
   .icons {
     display: flex;
     margin-bottom: 20px;
-
-    //.icon-money-back-1-1 {
-    //  margin-bottom: 19px;
-    //}
-    //
-    //.icon-patent-1 {
-    //  margin-bottom: 15px;
-    //}
-    //
-    //.icon-car-1-11 {
-    //  margin-bottom: 5px;
-    //}
 
     p {
       font-family: $font_text;
@@ -86,21 +74,21 @@ $font_text: 'Open Sans', sans-serif;
   ///media
 
   @media (max-width: 1024px) {
-    background:  linear-gradient(rgba(0, 0, 0, 0.2) 100%, rgba(0, 0, 0, 0.2) 100%), url("../../public/images/banner-mobile.png") center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.2) 100%, rgba(0, 0, 0, 0.2) 100%), url("../../public/images/banner-mobile.png") center no-repeat;
     background-size: cover;
   }
 
   @media (max-width: 528px) {
-  h1 {
-    max-width: 278px;
-    font-family: $font_text;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 40px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-  }
+    h1 {
+      max-width: 278px;
+      font-family: $font_text;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 25px;
+      line-height: 40px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
 
     .banner-inner {
       justify-content: flex-start;

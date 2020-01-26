@@ -6,8 +6,6 @@ $font_text: 'Open Sans', sans-serif;
   padding: 164px 0 59px 0;
 
   .caption {
-    font-family: $font_text;
-    font-style: normal;
     font-weight: 800;
     font-size: 24px;
     line-height: 45px;
@@ -17,9 +15,6 @@ $font_text: 'Open Sans', sans-serif;
   }
 
   .sub-text {
-    font-family: $font_text;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 186.68%;
     text-align: center;
@@ -38,7 +33,7 @@ $font_text: 'Open Sans', sans-serif;
   .item {
     padding: 46px 22px 25px 22px;
     background: #FFFFFF;
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
     text-align: center;
 
     display: flex;
@@ -46,8 +41,6 @@ $font_text: 'Open Sans', sans-serif;
     justify-content: space-between;
 
     h6 {
-      font-family: $font_text;
-      font-style: normal;
       font-weight: bold;
       font-size: 14px;
       line-height: 19px;
@@ -67,9 +60,6 @@ $font_text: 'Open Sans', sans-serif;
     }
 
     p {
-      font-family: $font_text;
-      font-style: normal;
-      font-weight: normal;
       font-size: 14px;
       line-height: 22px;
       text-align: center;
@@ -81,7 +71,7 @@ $font_text: 'Open Sans', sans-serif;
       background: #FE0101;
       border-radius: 20px;
       display: inline-block;
-      width: 95%;
+      width: 80%;
       margin-left: auto;
       margin-right: auto;
       outline: none !important;
@@ -91,8 +81,6 @@ $font_text: 'Open Sans', sans-serif;
       }
 
       .btn {
-        font-family: $font_text;
-        font-style: normal;
         font-weight: 600;
         font-size: 15px;
         line-height: 20px;
@@ -166,4 +154,5 @@ $font_text: 'Open Sans', sans-serif;
     }
   }
 }
+
 //////////////////////////DELIVERY END////////////////////////

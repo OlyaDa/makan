@@ -169,8 +169,77 @@ $caption_text: Cera Pro, sans-serif;
 }
 
 body {
-  font-family: open-sans, Arial, sans-serif;
+  font-family: 'Open Sans', 'Arial', sans-serif;
   background-color: #fff;
+  font-style: normal;
+  font-weight: normal;
+}
+
+form button {
+  background: #0194FE;
+  border-radius: 20px;
+  outline: none !important;
+
+  &:hover {
+    background: #FE0101;
+  }
+
+  .btn {
+    font-family: $font_text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 10px 29px;
+  }
+}
+
+//.button {
+//  background: #FE0101;
+//  border-radius: 20px;
+//  display: inline-block;
+//  width: 95%;
+//  margin-left: auto;
+//  margin-right: auto;
+//  outline: none !important;
+//
+//  &:hover {
+//    background: #0194FE;
+//  }
+//
+//  .btn {
+//    font-weight: 600;
+//    font-size: 15px;
+//    line-height: 20px;
+//    color: #FFFFFF;
+//    padding: 13px 90px;
+//
+//  }
+//}
+
+.logo {
+  &:hover {
+    text-decoration: none;
+  }
+  .logo-main {
+    font-size: 21px;
+    line-height: 29px;
+    color: #FE0101;
+    margin: 0;
+
+    span {
+      font-weight: 800;
+    }
+  }
+
+  .logo-sub {
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #0194FE;
+    margin: 0;
+  }
 }
 
 .list-reset {
@@ -205,7 +274,7 @@ img {
 }
 
 .btn {
-  outline: none!important;
+  outline: none !important;
 }
 
 .devgen {
@@ -225,6 +294,7 @@ img {
     }
   }
 }
+
 /////////////////////POPUP///////////////////
 
 .popup {
@@ -233,7 +303,6 @@ img {
   margin: 0 auto;
   position: relative;
   padding: 25px 0 25px 0;
-  position: relative;
 
   .image1 {
     position: absolute;
@@ -337,7 +406,7 @@ img {
 
     button {
       background: #FE0101;
-      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
       border-radius: 20px;
       border: 1px solid #FE0101;
       outline: none !important;

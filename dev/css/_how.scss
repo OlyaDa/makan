@@ -4,13 +4,11 @@ $font_text: 'Open Sans', sans-serif;
 .how {
   padding: 85px 0 117px 0;
   background: linear-gradient(90deg, #010105 -0.83%, rgba(5, 1, 35, 0) 51.41%, #04020F 100%), url("../../public/images/bg-how.png") center no-repeat;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   background-size: cover;
   overflow: hidden;
 
   .caption {
-    font-family: $font_text;
-    font-style: normal;
     font-weight: 800;
     font-size: 24px;
     line-height: 45px;
@@ -20,8 +18,6 @@ $font_text: 'Open Sans', sans-serif;
   }
 
   h6 {
-    font-family: $font_text;
-    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 186.68%;
@@ -33,7 +29,7 @@ $font_text: 'Open Sans', sans-serif;
 
   .text {
     background: #000000;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     padding: 19px;
     display: flex;
     justify-content: center;
@@ -44,22 +40,16 @@ $font_text: 'Open Sans', sans-serif;
 
     .number {
       position: absolute;
-      font-family: $font_text;
-      font-style: normal;
       font-weight: 800;
       font-size: 165px;
       line-height: 186.68%;
       text-align: center;
       color: rgba(254, 1, 1, 0.55);
-      //top: 30px;
       right: -35px;
       bottom: -150px;
     }
 
     p {
-      font-family: $font_text;
-      font-style: normal;
-      font-weight: normal;
       font-size: 14px;
       line-height: 186.68%;
       text-align: center;
@@ -81,7 +71,7 @@ $font_text: 'Open Sans', sans-serif;
       margin-bottom: 90px;
     }
 
-    .text  .number {
+    .text .number {
       right: 14px;
     }
   }

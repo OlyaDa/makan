@@ -42,7 +42,7 @@ $font_text: 'Open Sans', sans-serif;
       .button {
         background: #0194FE;
         border-radius: 20px;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         display: inline-block;
         position: absolute;
         right: -24px;
@@ -53,8 +53,6 @@ $font_text: 'Open Sans', sans-serif;
         }
 
         .btn {
-          font-family: $font_text;
-          font-style: normal;
           font-weight: 800;
           font-size: 14px;
           line-height: 186.68%;
@@ -64,8 +62,6 @@ $font_text: 'Open Sans', sans-serif;
       }
 
       .title {
-        font-family: $font_text;
-        font-style: normal;
         font-weight: bold;
         font-size: 14px;
         line-height: 186.68%;
@@ -73,8 +69,6 @@ $font_text: 'Open Sans', sans-serif;
       }
 
       .price {
-        font-family: $font_text;
-        font-style: normal;
         font-weight: 800;
         font-size: 14px;
         line-height: 186.68%;
@@ -96,10 +90,7 @@ $font_text: 'Open Sans', sans-serif;
     width: 50%;
     position: relative;
 
-
     .caption {
-      font-family: $font_text;
-      font-style: normal;
       font-weight: 800;
       font-size: 24px;
       line-height: 45px;
@@ -115,8 +106,6 @@ $font_text: 'Open Sans', sans-serif;
     }
 
     p {
-      font-family: $font_text;
-      font-style: normal;
       font-weight: normal;
       font-size: 18px;
       line-height: 186.68%;
@@ -130,22 +119,22 @@ $font_text: 'Open Sans', sans-serif;
       display: flex;
       align-items: flex-end;
       margin-left: -44px;
-}
+    }
 
-.image-small {
-  width: 50%;
-  z-index: 1;
-}
+    .image-small {
+      width: 50%;
+      z-index: 1;
+    }
 
-.image-smaller {
-  max-width: 40%;
-  position: absolute;
-  right: 129px;
-  bottom: 15%;
-  z-index: 0;
-  margin-left: -44px;
-}
-}
+    .image-smaller {
+      max-width: 40%;
+      position: absolute;
+      right: 129px;
+      bottom: 15%;
+      z-index: 0;
+      margin-left: -44px;
+    }
+  }
 
   ///slick-prev slick-next
 
@@ -342,10 +331,8 @@ $font_text: 'Open Sans', sans-serif;
     }
   }
 
-
   @media (max-width: 495px) {
     .left-part .info {
-
 
       .title, .price {
         font-size: 12px;
@@ -353,7 +340,6 @@ $font_text: 'Open Sans', sans-serif;
       }
     }
   }
-
 
 }
 

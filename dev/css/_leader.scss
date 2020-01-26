@@ -14,8 +14,6 @@ $font_text: 'Open Sans', sans-serif;
     width: 100%;
 
     .title {
-      font-family: $font_text;
-      font-style: normal;
       font-weight: bold;
       font-size: 14px;
       line-height: 19px;
@@ -31,9 +29,6 @@ $font_text: 'Open Sans', sans-serif;
       align-items: center;
 
       p {
-        font-family: $font_text;
-        font-style: normal;
-        font-weight: normal;
         font-size: 12px;
         line-height: 16px;
         text-align: center;
@@ -75,17 +70,13 @@ $font_text: 'Open Sans', sans-serif;
       button {
         background: #0194FE;
         border-radius: 20px;
-        //height: 45px;
         outline: none !important;
 
         &:hover {
           background: #FE0101;
-          //transition: .3s ease;
         }
 
         .btn {
-          font-family: $font_text;
-          font-style: normal;
           font-weight: 600;
           font-size: 15px;
           line-height: 20px;
@@ -203,15 +194,6 @@ $font_text: 'Open Sans', sans-serif;
     position: relative;
   }
 
-  //.fa-play-circle {
-  //  font-size: 64px;
-  //  position: absolute;
-  //  top: calc(50% - 32px);
-  //  left: calc(50% - 32px);
-  //  color: #FE0101;
-  //
-  //}
-
   .circle {
     width: 64px;
     height: 64px;
@@ -229,8 +211,6 @@ $font_text: 'Open Sans', sans-serif;
   }
 
   .caption {
-    font-family: $font_text;
-    font-style: normal;
     font-weight: 800;
     font-size: 24px;
     line-height: 45px;
@@ -241,9 +221,6 @@ $font_text: 'Open Sans', sans-serif;
 
   p {
     max-width: 496px;
-    font-family: $font_text;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 186.68%;
     color: #3C3C3C;
@@ -286,7 +263,7 @@ $font_text: 'Open Sans', sans-serif;
     padding: 40px 0 50px 0;
     margin-top: 0;
 
-    .holder, .caption , p{
+    .holder, .caption, p {
       max-width: 100%;
       text-align: center;
     }
@@ -311,55 +288,29 @@ $font_text: 'Open Sans', sans-serif;
     }
 
     p {
-      margin: 0;
-      margin-bottom: 45px;
+      margin: 0 0 45px;
     }
-
 
     .leader-inner {
-     flex-direction: column;
+      flex-direction: column;
     }
   }
-
-  //@media (max-width: 850px) {
-  //  padding: 60px 0 50px 0;
-  //}
 
   @media (max-width: 768px) {
     .caption {
       line-height: 100%;
     }
-    //p {
-    //  margin-bottom: 20px;
-    //}
   }
 
   @media (max-width: 694px) {
     padding: 0 0 50px 0;
   }
 
-  //@media (max-width: 600px) {
-  //  margin-top: -60px;
-  //}
-
   @media (max-width: 576px) {
     .caption {
       font-size: 20px;
     }
   }
-
-  //@media (max-width: 528px) {
-  //  padding: 100px 0 50px 0;
-  //}
-
-  //@media (max-width: 420px) {
-  //  padding: 115px 0 50px 0;
-  //}
-  //
-  //@media (max-width: 320px) {
-  //  padding: 135px 0 50px 0;
-  //}
-
 }
 
 //////////////////////////LEADER END////////////////////////

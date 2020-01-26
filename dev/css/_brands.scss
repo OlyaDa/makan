@@ -6,8 +6,6 @@ $font_text: 'Open Sans', sans-serif;
   padding: 59px 0 199px 0;
 
   .caption {
-    font-family: $font_text;
-    font-style: normal;
     font-weight: 800;
     font-size: 24px;
     line-height: 45px;
@@ -69,7 +67,6 @@ $font_text: 'Open Sans', sans-serif;
 
   //slider dots begin
 
-
   .slick-dots {
     position: absolute;
     bottom: -60px;
@@ -78,7 +75,6 @@ $font_text: 'Open Sans', sans-serif;
     list-style: none;
     text-align: center;
   }
-
 
   .slick-dots li {
     position: relative;
@@ -108,7 +104,6 @@ $font_text: 'Open Sans', sans-serif;
   }
 
   //slider dots end
-
 
   ///media
 
