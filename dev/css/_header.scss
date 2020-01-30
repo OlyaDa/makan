@@ -22,7 +22,10 @@ $font_text: 'Open Sans', sans-serif;
   }
 
   .logo {
-    max-width: 140px;
+     img {
+      width: 100%;
+      max-width: 100px;
+    }
     display: block;
   }
 
@@ -123,7 +126,7 @@ $font_text: 'Open Sans', sans-serif;
     bottom: 0;
     transition: all .3s ease-in-out;
     max-width: 80vw;
-    right: -100%;
+    right: -200%;
     min-height: 100vh;
     background: #252525;
     opacity: 0;
@@ -273,9 +276,13 @@ $font_text: 'Open Sans', sans-serif;
   @media (max-width: 420px) {
     padding: 20px 0;
 
+    .toggle-menu {
+      position: absolute;
+      right: 0;
+      top: 10px;
+    }
+
     .logo {
-      display: block;
-      width: 150px;
       margin: 0 auto;
     }
 

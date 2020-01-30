@@ -15,8 +15,10 @@
     flex-wrap: wrap;
     position: relative; }
   .header .logo {
-    max-width: 140px;
     display: block; }
+    .header .logo img {
+      width: 100%;
+      max-width: 100px; }
   .header .contact {
     display: flex;
     flex-direction: column;
@@ -79,7 +81,7 @@
     bottom: 0;
     transition: all .3s ease-in-out;
     max-width: 80vw;
-    right: -100%;
+    right: -200%;
     min-height: 100vh;
     background: #252525;
     opacity: 0;
@@ -185,9 +187,11 @@
   @media (max-width: 420px) {
     .header {
       padding: 20px 0; }
+      .header .toggle-menu {
+        position: absolute;
+        right: 0;
+        top: 10px; }
       .header .logo {
-        display: block;
-        width: 150px;
         margin: 0 auto; }
       .header .toggle-menu span {
         top: 110%; } }
@@ -214,8 +218,7 @@
     line-height: 192.18%;
     text-transform: uppercase;
     color: #FFFFFF;
-    max-width: 791px;
-    margin: 40px 0 0; }
+    max-width: 791px; }
     .banner h1 span {
       font-weight: 800;
       color: #FE0101; }
@@ -1686,8 +1689,9 @@
       max-width: 413px;
       margin-left: 24px;
       margin-bottom: 0; }
-    .footer .logo-info .logo {
-      max-width: 140px; }
+    .footer .logo-info img {
+      width: 100%;
+      max-width: 100px; }
   @media (max-width: 991px) {
     .footer .logo-info {
       justify-content: center; }
@@ -1872,8 +1876,44 @@ img {
   width: 100%;
   height: auto; }
 
-.btn {
+button, a, .btn {
   outline: none !important; }
+
+input, textarea {
+  outline: none; }
+
+input:active, textarea:active {
+  outline: none; }
+
+:focus {
+  outline: none; }
+
+textarea {
+  resize: none; }
+
+textarea {
+  resize: vertical; }
+
+textarea {
+  resize: horizontal; }
+
+button:active, button:focus {
+  outline: none; }
+
+button::-moz-focus-inner {
+  border: 0; }
+
+.button:active, .button:focus {
+  outline: none; }
+
+.button::-moz-focus-inner {
+  border: 0; }
+
+a:active, a:focus {
+  outline: none; }
+
+a::-moz-focus-inner {
+  border: 0; }
 
 .devgen {
   background: #000;
@@ -1913,7 +1953,7 @@ img {
       display: block;
       margin-bottom: 12px;
       z-index: 3;
-      max-width: 140px;
+      max-width: 100px;
       margin-left: auto;
       margin-right: auto; }
     .popup form .form-title {
