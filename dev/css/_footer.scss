@@ -10,6 +10,19 @@ $font_text: 'Open Sans', sans-serif;
     line-height: 19px;
     color: #FFFFFF;
     // margin-bottom: 24px;
+
+    p {
+      margin-bottom: 5px;
+    }
+  }
+
+  .mail a {
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   .phone {
@@ -52,6 +65,12 @@ $font_text: 'Open Sans', sans-serif;
 
   .icon-map:before {
     color: #0194FE;
+  }
+
+  .fa-envelope {
+    margin-left: 2px;
+    color: #0194FE;
+    font-size: 13px;
   }
 
   .social-icons {
@@ -112,27 +131,7 @@ $font_text: 'Open Sans', sans-serif;
     }
 
     .logo {
-      &:hover {
-        text-decoration: none;
-      }
-      .logo-main {
-        font-size: 21px;
-        line-height: 29px;
-        color: #FE0101;
-        margin: 0;
-
-        span {
-          font-weight: 800;
-        }
-      }
-
-      .logo-sub {
-        font-size: 11px;
-        line-height: 15px;
-        text-transform: uppercase;
-        color: #0194FE;
-        margin: 0;
-      }
+      max-width: 140px;
     }
   }
 

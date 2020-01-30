@@ -22,27 +22,8 @@ $font_text: 'Open Sans', sans-serif;
   }
 
   .logo {
-    &:hover {
-      text-decoration: none;
-    }
-    .logo-main {
-      font-size: 21px;
-      line-height: 29px;
-      color: #FE0101;
-      margin: 0;
-
-      span {
-        font-weight: 800;
-      }
-    }
-
-    .logo-sub {
-      font-size: 11px;
-      line-height: 15px;
-      text-transform: uppercase;
-      color: #0194FE;
-      margin: 0;
-    }
+    max-width: 140px;
+    display: block;
   }
 
   .contact {
@@ -253,6 +234,8 @@ $font_text: 'Open Sans', sans-serif;
   ///media
 
   @media (max-width: 970px) {
+    padding: 10px 0;
+
     .contact {
       display: none;
     }
@@ -260,6 +243,7 @@ $font_text: 'Open Sans', sans-serif;
     .toggle-menu {
       position: absolute;
       right: 0;
+      top: 20px;
     }
 
     .header__inner {

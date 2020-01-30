@@ -18,7 +18,13 @@ $font_text: 'Open Sans', sans-serif;
 
   .reviews-inner {
     display: flex;
-    align-items: flex-end;
+    //align-items: flex-end;
+    position: relative;
+  }
+
+  .top {
+    display: flex;
+    align-items: center;
     position: relative;
   }
 

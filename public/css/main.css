@@ -21,21 +21,9 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     position: relative; }
-  .header .logo:hover {
-    text-decoration: none; }
-  .header .logo .logo-main {
-    font-size: 21px;
-    line-height: 29px;
-    color: #FE0101;
-    margin: 0; }
-    .header .logo .logo-main span {
-      font-weight: 800; }
-  .header .logo .logo-sub {
-    font-size: 11px;
-    line-height: 15px;
-    text-transform: uppercase;
-    color: #0194FE;
-    margin: 0; }
+  .header .logo {
+    max-width: 140px;
+    display: block; }
   .header .contact {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -219,41 +207,44 @@
       -webkit-transition: all .3s ease-in-out;
       transition: all .3s ease-in-out; }
   @media (max-width: 970px) {
-    .header .contact {
-      display: none; }
-    .header .toggle-menu {
-      position: absolute;
-      right: 0; }
-    .header .header__inner {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-align: inherit;
-      -ms-flex-align: inherit;
-      align-items: inherit; }
-    .header .main-nav {
-      display: none; }
-    .header .toggle-menu {
-      display: block; }
-    .header .contact-mobile {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-align: start;
-      -ms-flex-align: start;
-      align-items: flex-start;
-      margin-bottom: 30px;
-      padding-left: 22px; } }
+    .header {
+      padding: 10px 0; }
+      .header .contact {
+        display: none; }
+      .header .toggle-menu {
+        position: absolute;
+        right: 0;
+        top: 20px; }
+      .header .header__inner {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: inherit;
+        -ms-flex-align: inherit;
+        align-items: inherit; }
+      .header .main-nav {
+        display: none; }
+      .header .toggle-menu {
+        display: block; }
+      .header .contact-mobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        padding-left: 22px; } }
   @media (max-width: 420px) {
     .header {
       padding: 20px 0; }
@@ -295,8 +286,8 @@
     line-height: 192.18%;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 0;
-    max-width: 791px; }
+    max-width: 791px;
+    margin: 40px 0 0; }
     .banner h1 span {
       font-weight: 800;
       color: #FE0101; }
@@ -489,9 +480,14 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
+    position: relative; }
+  .reviews .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     position: relative; }
   .reviews .left-part {
     display: -webkit-box;
@@ -1890,6 +1886,14 @@
     font-size: 14px;
     line-height: 19px;
     color: #FFFFFF; }
+    .footer .address p {
+      margin-bottom: 5px; }
+  .footer .mail a {
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF; }
+    .footer .mail a:hover {
+      text-decoration: none; }
   .footer .phone {
     margin-left: 5px; }
   .footer .phone a {
@@ -1930,6 +1934,10 @@
     color: #0194FE; }
   .footer .icon-map:before {
     color: #0194FE; }
+  .footer .fa-envelope {
+    margin-left: 2px;
+    color: #0194FE;
+    font-size: 13px; }
   .footer .social-icons {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1982,21 +1990,8 @@
       max-width: 413px;
       margin-left: 24px;
       margin-bottom: 0; }
-    .footer .logo-info .logo:hover {
-      text-decoration: none; }
-    .footer .logo-info .logo .logo-main {
-      font-size: 21px;
-      line-height: 29px;
-      color: #FE0101;
-      margin: 0; }
-      .footer .logo-info .logo .logo-main span {
-        font-weight: 800; }
-    .footer .logo-info .logo .logo-sub {
-      font-size: 11px;
-      line-height: 15px;
-      text-transform: uppercase;
-      color: #0194FE;
-      margin: 0; }
+    .footer .logo-info .logo {
+      max-width: 140px; }
   @media (max-width: 991px) {
     .footer .logo-info {
       -webkit-box-pack: center;
@@ -2163,22 +2158,6 @@ form button {
     color: #FFFFFF;
     padding: 10px 29px; }
 
-.logo:hover {
-  text-decoration: none; }
-.logo .logo-main {
-  font-size: 21px;
-  line-height: 29px;
-  color: #FE0101;
-  margin: 0; }
-  .logo .logo-main span {
-    font-weight: 800; }
-.logo .logo-sub {
-  font-size: 11px;
-  line-height: 15px;
-  text-transform: uppercase;
-  color: #0194FE;
-  margin: 0; }
-
 .list-reset {
   list-style: none;
   padding-left: 0;
@@ -2227,7 +2206,8 @@ img {
       text-decoration: none; }
 
 .popup {
-  background: #fff;
+  background: url("../../public/images/bg-popup.png");
+  background-size: cover;
   max-width: 428px;
   margin: 0 auto;
   position: relative;
@@ -2248,28 +2228,10 @@ img {
     .popup form .logo {
       display: block;
       margin-bottom: 12px;
-      z-index: 3; }
-      .popup form .logo:hover {
-        text-decoration: none; }
-      .popup form .logo .logo-main {
-        font-family: "Open Sans", sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 21px;
-        line-height: 29px;
-        color: #FE0101;
-        margin: 0; }
-        .popup form .logo .logo-main span {
-          font-weight: 800; }
-      .popup form .logo .logo-sub {
-        font-family: "Open Sans", sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 11px;
-        line-height: 15px;
-        text-transform: uppercase;
-        color: #0194FE;
-        margin: 0; }
+      z-index: 3;
+      max-width: 140px;
+      margin-left: auto;
+      margin-right: auto; }
     .popup form .form-title {
       font-family: "Open Sans", sans-serif;
       font-style: normal;

@@ -218,30 +218,6 @@ form button {
 //  }
 //}
 
-.logo {
-  &:hover {
-    text-decoration: none;
-  }
-  .logo-main {
-    font-size: 21px;
-    line-height: 29px;
-    color: #FE0101;
-    margin: 0;
-
-    span {
-      font-weight: 800;
-    }
-  }
-
-  .logo-sub {
-    font-size: 11px;
-    line-height: 15px;
-    text-transform: uppercase;
-    color: #0194FE;
-    margin: 0;
-  }
-}
-
 .list-reset {
   list-style: none;
   padding-left: 0;
@@ -298,7 +274,8 @@ img {
 /////////////////////POPUP///////////////////
 
 .popup {
-  background: #fff;
+  background: url("../../public/images/bg-popup.png");
+  background-size: cover;
   max-width: 428px;
   margin: 0 auto;
   position: relative;
@@ -326,34 +303,9 @@ img {
       display: block;
       margin-bottom: 12px;
       z-index: 3;
-
-      &:hover {
-        text-decoration: none;
-      }
-      .logo-main {
-        font-family: $font_text;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 21px;
-        line-height: 29px;
-        color: #FE0101;
-        margin: 0;
-
-        span {
-          font-weight: 800;
-        }
-      }
-
-      .logo-sub {
-        font-family: $font_text;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 11px;
-        line-height: 15px;
-        text-transform: uppercase;
-        color: #0194FE;
-        margin: 0;
-      }
+      max-width: 140px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .form-title {
