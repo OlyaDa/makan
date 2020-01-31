@@ -371,7 +371,8 @@
     line-height: 45px;
     text-align: center;
     color: #252525;
-    margin-bottom: 29px; }
+    margin-bottom: 29px;
+    text-transform: uppercase; }
   .delivery .sub-text {
     font-size: 18px;
     line-height: 186.68%;
@@ -1382,7 +1383,8 @@
     line-height: 45px;
     color: #000000;
     max-width: 428px;
-    margin-bottom: 18px; }
+    margin-bottom: 18px;
+    text-transform: uppercase; }
   .leader p {
     max-width: 496px;
     font-size: 14px;
@@ -1784,8 +1786,7 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     margin: 5px;
-    z-index: 4;
-    border: 5px solid #FE0101; }
+    z-index: 4; }
   .gallery .fa-long-arrow-alt-left, .gallery .fa-long-arrow-alt-right {
     -webkit-transform: scaleX(2);
     transform: scaleX(2); }
@@ -2110,7 +2111,7 @@
 .icon-gas:before {
   content: '\e808';
   color: #fe0101;
-  font-size: 96px; }
+  font-size: 80px; }
 
 .icon-car-red2:before {
   content: '\e804';
