@@ -891,7 +891,20 @@
       left: 0;
       right: 0;
       z-index: 99;
-      border-radius: 20px; }
+      border-radius: 20px;
+      overflow-x: hidden;
+      height: 150px; }
+    .choice form ::-webkit-scrollbar {
+      width: 12px !important;
+      height: 150px !important; }
+    .choice form ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      border-radius: 20px !important;
+      margin-top: 10px !important; }
+    .choice form ::-webkit-scrollbar-thumb {
+      border-radius: 20px !important;
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+      margin-top: 10px !important; }
     .choice form .select-hide {
       display: none; }
     .choice form .select-items div:hover, .choice form .same-as-selected {
